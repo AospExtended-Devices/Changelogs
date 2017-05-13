@@ -1,0 +1,31 @@
+### AospExtended V4.2 May Update
+---
+- Merged May Patch 7.1.2_r8 
+- Updated Packages and Translations
+- Updated pre-built APKs
+- AEXPapers is back
+- New AEX OTA
+- Droped Lock Clock
+- Switched to OmniJaws
+- CAF Sound Recorder
+- Keyguard Status Bar clock and Weather
+- Nav Bar Button Tint
+- Improved Screen Pinning
+- SystemUI Restart
+- Updated Sounds
+- Processor Info in about phone
+- Kernel Enforcing and Permissive info in about phone
+- Fixed Gap after removing QSTiles
+- Custom settings for Power Plug Disconnect and Connect
+- Tile for HW keys Enable/Disable
+- Center lockscreen shortcuts
+- Removed stausbar Ticker fade animation
+- Fixed Swaped nightlight brightness
+- Extensions QS Tile
+- System App Remover
+- Grid Recents UI 
+- Update OMS Commits
+- Fixed mismatched fonts in Lockscreen Status Bar Clock
+- Updated MusicFX with DSP Modes 
+- Fixed Bluetooth Receiving issue
+- Performance enchancements and bug fixes
