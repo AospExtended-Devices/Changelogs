@@ -1,5 +1,5 @@
-### AospExtended V4.2 May Update
----
+#  AospExtended V4.2 May Update :
+
 - Merged May Patch 7.1.2_r8 
 - Updated Packages and Translations
 - Updated pre-built APKs
