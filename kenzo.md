@@ -1,6 +1,7 @@
 # AospExtended 4.2 for Kenzo New OTA! 
 
 **[13.05.17]**
+
 - Fixed FLAC 24-Bit files not playing
 - Silent tile is back
 - Revert screen pinning improvements
