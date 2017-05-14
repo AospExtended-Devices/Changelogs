@@ -4,6 +4,6 @@ _*Our OTA app has a feature to give device specific changelogs! You can go here 
 [Markdown editor ](http://dillinger.io/) | [Markdown cheatsheet ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)_
 
 Links:
-[Thread template](https://github.com/AospExtended/thread_template)| [Official devices](https://github.com/AospExtended/official_devices) | [Download website](http://downloads.aospextended.com/) |
+[Thread template and official documentation](https://github.com/AospExtended/thread_template) | [Official devices](https://github.com/AospExtended/official_devices) | [Download website](http://downloads.aospextended.com/) |
 [Settings, About us](https://github.com/AospExtended/platform_packages_apps_Settings/edit/7.1.1/res/values/device_maintainers_arrays.xml) | [Markdown editor ](http://dillinger.io/) | [Markdown cheatsheet ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) | [Device specific changelogs](https://github.com/AospExtended-Devices/Changelogs)  
 
