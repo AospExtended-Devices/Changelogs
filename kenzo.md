@@ -10,4 +10,5 @@
 - Remove SultanXDA Patch for Safetynet and add the patch by LOS
 - Switch to CAF Pure SnapdragonCamera (Need reviews)
 - Fix WhatsApp lag and few UI stuters
+-Force HAL1 for few apps like Google camera. NX camera, Skype
 - Few more stuff
