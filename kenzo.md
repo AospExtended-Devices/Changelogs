@@ -8,7 +8,7 @@
 - Remove workaround for headphone detection and add a proper fix
 - Remove workaround for Sharp yellow display and add a proper fix
 - Remove SultanXDA Patch for Safetynet and add the patch by LOS
-- Switch to CAF Pure SnapdragonCamera (Need reviews)
+- Add both LOS Snap and Omni's SnapdragonCamera without green color [Let me know which one should I keep]
 - Fix WhatsApp lag and few UI stuters
--Force HAL1 for few apps like Google camera. NX camera, Skype
+- Force HAL1 for few apps like Google camera. NX camera, Skype
 - Few more stuff
