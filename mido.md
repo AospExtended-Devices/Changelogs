@@ -1,5 +1,11 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[21.05.17]**
+- Compiled Kernel from Source (Instead of Prebuilt)
+- Fingerprint more Responsive
+- Fixed Hotspot Issues 
+- AEX Upstreams
+
 **[09.05.17]**
 - AEX 4.2 Released.
 - Initial Sepolicy
