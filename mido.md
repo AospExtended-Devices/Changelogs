@@ -1,5 +1,14 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[25.05.17]**
+- Added Toggle for Double Tap to Wake
+- Added f2fs support
+- Increased notification light brightness (it was too dim earlier)
+- Disabled printk (Should see memory gaiin)
+- Disabled few drivers dmesg Spam 
+- Fixed Reboot to Recovery Issues
+- AEX Upstreams
+
 **[21.05.17]**
 - Compiled Kernel from Source (Instead of Prebuilt)
 - Fingerprint more Responsive
