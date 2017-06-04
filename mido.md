@@ -1,5 +1,10 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[04.06.17]**
+- Fixed Home Button Delay (Disable double tap to recent first)
+- Fixed Lags
+- AEX Upstreams
+
 **[25.05.17]**
 - Added Toggle for Double Tap to Wake
 - Added f2fs support
