@@ -1,5 +1,11 @@
 ## Lenovo A7000-a specific changelogs
 
+**[08.06.17]**
+- OMXCore updates (thanks to aryan and sandeep.sethi)
+- Offline Charging fix merged to the rootdir
+- Youtube Blackscreen issue fixed
+- Daredevil SL (non-DT2W) kernel integration
+
 **[09.05.17]**
 - Fixed Camera Flash stuck bug
 - Netd is no more a prebuilt
