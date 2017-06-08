@@ -14,3 +14,10 @@
 -Moved oneplus gestures section inside the device gestures
 -Added doze
 -More slider options included.
+
+**[08.06.2017]**
+- New update to v4.3
+- Kernel specific changes for better battery
+- Kernel updated to 3.10.105
+- Fixed wifi drop outs
+- Fixed some device related issues.
