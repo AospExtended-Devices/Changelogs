@@ -1,31 +1,29 @@
-#  AospExtended V4.2 May Update :
+#  AospExtended V4.3 June Update :
 
-- Merged May Patch 7.1.2_r8 
-- Updated Packages and Translations
-- Updated pre-built APKs
-- AEXPapers is back
-- New AEX OTA
-- Droped Lock Clock
-- Switched to OmniJaws
-- CAF Sound Recorder
-- Keyguard Status Bar clock and Weather
-- Nav Bar Button Tint
-- Improved Screen Pinning
-- SystemUI Restart
-- Updated Sounds
-- Processor Info in about phone
-- Kernel Enforcing and Permissive info in about phone
-- Fixed Gap after removing QSTiles
-- Custom settings for Power Plug Disconnect and Connect
-- Tile for HW keys Enable/Disable
-- Center lockscreen shortcuts
-- Removed stausbar Ticker fade animation
-- Fixed Swaped nightlight brightness
-- Extensions QS Tile
-- System App Remover
-- Grid Recents UI 
-- Update OMS Commits
-- Fixed mismatched fonts in Lockscreen Status Bar Clock
-- Updated MusicFX with DSP Modes 
-- Fixed Bluetooth Receiving issue
-- Performance enchancements and bug fixes
+- June security patch
+- Remove pixel icons
+- Add MicroG support
+- Improve AEX settings header
+- Add AEX platlogo
+- Add AEX settings drawer header
+- Add new #BeExtended headers
+- Fix battery icon theming
+- Update OMS commits
+- Rootless SystemUI restart
+- Use more vectorized icon
+- Add lockscreen pattern grid size
+- Screen pinning option in Grid recents UI
+- Recents task locking
+- Fix navigation bar always showing on the left
+- Fix various NPEs
+- Add AOSPA Optimisations
+- Add Xbox key layout
+- Volume key cursor control
+- Option to enable/disable home key during incoming call
+- Improve expanded desktop QS tile
+- Add support for sensitive numbers
+- Silent mode is back
+- Update pre-built APKs
+- Update all packages
+- Update translations
+- Performance enhancements and bug fixes
