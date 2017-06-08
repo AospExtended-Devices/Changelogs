@@ -1,28 +1,32 @@
-# AospExtended 4.2 for Oneplus 3/3T!
+# AospExtended 4.3 for Oneplus 3/3T!
 
-**[18.05.17]**
+**[08.06.17]**
 
+- Kicked OOS apps (Camera and Gallery) 
+Can be downloaded separately from @siankatabg's thread... no need of including prebuilts and bloating the build!
+- OnePlus Gestures are now moved to Settings > Gestures > Device Gestures! I wasnt liking the two spammy gestures options! Looks more 
+clean!
+- Re-enable delete_aiding_data for user build 
+- op3: Update Adreno firmware checksums for Open Beta 8/17 @sultanxda
+- op3: Doze: Require non-wake up proximity sensor
+- init.qcom.rc : Add time_daemon in init.qcom.rc
+- op3: rootdir: Update fs tune from marlin
+- op3: Use kryo 32-bit routines 
+- op3: Set camera package name to OnePlus Camera
+- op3: Add specific camera parameter library 
+- op3: Remove camera shim library
+- op3: Update to OB16 blobs
 - EAS Optimizations
-- Vox Populi Added ( A big thanks to @joshuous and @RenderBroken for their amazing work)
-- op3: Kill Gello 
-- op3: Enforce vendor tree presence 
-- op3: Remove QVOP service
-- Updated to OB7/OB16 blobs 
+- PA optimizations
+- Improvements on Idle Drains
+- Changed EAS values for better performance and battery!
 
-**[10.05.17]**
+# SNAP CAM Changelog
 
-- Sultans's Snap Cam with 4K UHD recording and EIS 
-credits @Sultanxda
-- Still using hal3 (I kinda like how Snap cam and google cam performs in hal3)
-- 1080 @60fps ;-; (I want to kill OOS cam, do let me know if you guyzz want it)
-- Enabled HAL3 capabilities
-- Whitelisted some apps
-- op3: Update decoder profiling result
-- op3: Unpin fpc hal
-- op3: Pin camera HAL blob 
-- op3: Switch to dsp effects
-- Updated to latest OB6/OB15 Blobs
+- Snap: Make video quality helpers aware of time-lapse mode
+- Snap: Bypass focus state checks in doSnap() for the front camera 
+- Snap: Silence face detection log spam
 
 # Note:-
-- Recommended to flash on OB6/OB15 firmwares.
+- Recommended to flash on OB8/OB17 firmwares.
 - Rootless Build. Flash your choice of root!
