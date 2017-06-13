@@ -4,6 +4,7 @@
 - OMXCore updates (thanks to aryan and sandeep.sethi)
 - Offline Charging fix merged to the rootdir
 - Youtube Blackscreen issue fixed
+- Youtube 720p60 fps lag fixed
 - Daredevil SL (non-DT2W) kernel integration
 
 **[09.05.17]**
@@ -19,5 +20,3 @@
 - Camera HDR fixed
 - Latest upstream by AospExtended Team
 - Daredevil 2.1 with DT2w and other features
-
-**Note:**_You can try workaround for YouTube black screen issue, [here](https://forum.xda-developers.com/showpost.php?p=72241849&postcount=131).
