@@ -21,3 +21,11 @@
 - Kernel updated to 3.10.105
 - Fixed wifi drop outs
 - Fixed some device related issues.
+
+**[22.06.2017]**
+-Minor Update to latest sources
+-Device specific fixes
+-Update kernel with some tweaks
+-Fix low output sound via speaker 
+-Fix ramdisk and f2fs(device specific)
+-More fixes for stability
