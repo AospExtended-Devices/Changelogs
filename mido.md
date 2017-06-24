@@ -1,5 +1,16 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[24.06.17]**
+
+- Selinux switched to enforcing
+- Source built Audio hal
+- Added widevine blobs
+- Updated blobs from latest dev rom (should imrove cam quality)
+- Sensor senstivity fixed
+- Fixed headphone issue
+- Added Stock Android Camera
+- Fix video calls (Hopefully)
+
 **[05.06.17]**
 - Kernel upstreamed to 3.18.55 and CAF Base to LA.UM.5.6.r1-04700-89xx.0 (Thanks to @DroidThug)
 - Security Patches in kernel
