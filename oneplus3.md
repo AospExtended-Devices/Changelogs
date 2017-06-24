@@ -1,5 +1,33 @@
 # AospExtended 4.3 for Oneplus 3/3T!
 
+# Weekly Build 3 of June!
+**[24.06.17]**
+
+- op3: Remove BCL hotplug disable/enable from init
+- IPACM: fix security issue in querying if index 
+- Re-enable delete_aiding_data for user build 
+- IPACM: fix the security issue in ConntrackClient
+- ipacm: fix the heap-use-after-free issue on bootup
+- op3: Restore original CAF gps configuration 
+- op3: Adjust lmk parameters
+- op3: Update from Open Beta 18 
+- op3: Convert rf_version to integer before comparison 
+- op3: Update qti telephony extension from MIUI 7.6.5 dev
+- op3: Grant netmgrd proper unix perms 
+- op3: Drop NET_RAW and NET_ADMIN from qti
+- op3: rmt_storage should have wakelock GID
+- op3: Add system GID to rmt_storage
+- Revert "op3: sepolicy: Fix rmt_storage and rfs_access policies" 
+- op3: sepolicy: Remove old and duplicate permissions
+- op3: Define ril-daemon normally 
+- op3: Sync bluetooth configuration with CAF
+- op3: Add Oneplus Cam to hal1 package List 
+
+# Note:-
+- Recommended to flash on OOS OB18/OB9 OP3/3T firmwares.
+- Rootless Build. Flash your choice of root!
+
+
 **[15.06.17]**
 
 - oneplus3: Update from OxygenOS 4.1.5 
