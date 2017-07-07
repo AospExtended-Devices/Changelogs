@@ -1,26 +1,19 @@
-# AospExtended 4.3 for Kenzo!
+# AospExtended 4.4 for kenzo! [7/7/17]
 
-- Update kernel to latest CAF tag
-- Merge all latest CVE security patch
-- Update SDCardFS
-- Add backlight dimmer option
-- Enable KCAL control in defconfig
-- Add fw/av patch to support refocus? [Maybe]
-- Fix opening of aanc_tuning_mixer_wcd9335.txt
-- Fsync on/off support
-- msm: camera Restruct data handling to be more robust
-- msm: camera Fix Memory leaks
-- Fix missing boardtemp thermal sensor
-- msm: camerav2: sensor: Fix error check to allow multi init
-- msm: sensor: restore slave address after I2C read
-- Remove workaround for headphone detection and add a proper fix
-- Remove workaround for Sharp yellow display and add a proper fix
-- Remove SultanXDA Patch for Safetynet and add the patch by LOS
-- Fix WhatsApp lag and few UI stuters
-- Switch to LOS Snap camera
-- Change configs in kernel to 300Hz for smoother UX without any power cost
-- Add missing camera blobs
-- Few more stuff
+- Remove modem assertion check
+- Implement DT2W in settings
+- Update all blobs (except camera, as we have different sensor) from MIUI Nougat for Hydrogen
+- Update power configurations
+- Remove the extra props for HWUI
+- Add and update Snap overlay
+- Fix camera memory leaks, buffer overflow, camera-daemon crash, ZSL issue in OSS HAL
+- Disable ZSL in Snap camera by default for good.
+- Merge latest CAF tag in kernel
+- Merge latest WiFi driver in kernel
+- Add latest CVE patches
+- Add back SultanXDA patch for safetynet
+- Implement proper locking of Ping in kernel
+- Fix memory leaks of camera actuator
+- Switch to my own version of Snap camera
 
-**_Clean flash is recommended._**
-
+_From now on I'll be  shipping this ROM with my own Snap camera. It contains fixes from LOS, CAF and from Billchen's repo._
