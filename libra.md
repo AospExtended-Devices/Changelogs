@@ -1,5 +1,11 @@
 ## Xiaomi Mi 4c (libra) specific changelogs
 ---
+**[06.07.17]**
+- Tweak the cpu cfq with irqbalances and original mode
+
+**[05.07.17]**
+- Update from upsteam(the tree by Carlos Solano)
+
 **[28.06.17]**
 
  - Update default settings from upsteam(the tree by Carlos Solano)
