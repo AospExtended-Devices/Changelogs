@@ -1,5 +1,8 @@
 ## Xiaomi Mi 4c (libra) specific changelogs
 ---
+**[10.07.17]**
+- Add doze(by Andropax)
+
 **[06.07.17]**
 - Tweak the cpu cfq with irqbalances and original mode
 
