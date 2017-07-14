@@ -1,5 +1,12 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[14.07.17]**
+
+- Phone FC on Roaming Network Fixed
+- OSS Camera
+- OV Cam Sensor Fixed
+- Video Recording Fixed
+
 **[24.06.17]**
 
 - Selinux switched to enforcing
