@@ -1,8 +1,22 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[30.07.17]**
+
+- Added 7.1.1 Blobs from Mi Max 2
+- Added FLAC support
+- Added Back Email App
+- Roaming FC and VOLTE issues should be gone now
+- Removed panic mode
+- Added cpusets
+- Removed Unused Blobs
+- Removed unused services
+- Custom ril class (should fix issues with lte and lte+)
+- oss consumerir hal (ir blaster)
+- Flac decode via ffmpeg
+- hdr and slo-mo fixed 
+
 **[14.07.17]**
 
-- Phone FC on Roaming Network Fixed
 - OSS Camera
 - OV Cam Sensor Fixed
 - Video Recording Fixed
