@@ -1,5 +1,12 @@
 ## Xiaomi Mi 4c (libra) specific changelogs
 ---
+**[22.07.17]**
+- Merge MIUI 8.5.1.0 blobs
+- Update fingerprint from MIUI 8.5.1.0
+- Remove doze (while it's ready I'll add back)
+- Add customizeble thermal-engine-8992.conf(this config by xda user GoldGanja)
+- Tweak the AGPS in multiple situation of network(eg. china)
+
 **[10.07.17]**
 - Add doze(by Andropax)
 
