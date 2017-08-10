@@ -1,5 +1,11 @@
 ## Xiaomi Mi 4c (libra) specific changelogs
 ---
+**[10.08.17]**
+- Update post_boot tweaks from lineage
+
+**[10.08.17]**
+- Use the AEX's Snapdragon LLVM
+
 **[22.07.17]**
 - Merge MIUI 8.5.1.0 blobs
 - Update fingerprint from MIUI 8.5.1.0
