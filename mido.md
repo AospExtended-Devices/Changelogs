@@ -1,5 +1,17 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[14.08.17]**
+
+- Upstreamed Linux kernel to 3.18.65
+- Added KCAL Color Control
+- Added Fsync On/Off Switch
+- Enabled Charging Current Info on Lockscreen
+- Enabled Adaptive Brightness By Default
+- Fling Velocity (Much more smoother then before)
+- Added New BootAnimation
+- Added SdcardFS support
+- Added extFAT Support
+
 **[30.07.17]**
 
 - Added 7.1.1 Blobs from Mi Max 2
