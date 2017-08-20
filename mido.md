@@ -1,5 +1,24 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[20.08.17]**
+
+- Kernel Upstreamed to 3.18.66
+- Added Xiaomi Doze
+- Added FP Boost Driver
+- Added Sound Control
+- Enabled CRC32 & SHA256 Hash Algorithms
+- Added USB Fast Charge
+- Block Few Wakelocks
+- Fix Few Memory Leaks
+- Temperature Throttle Limiter
+- Westwood set to Default
+- Added Backlight Dimmer
+- Power efficient workqueues
+- Disabled CRC Check
+- Lots of Performance Tweaks
+- Add/remove QS Tiles with one click
+- Lots of AEX Upstreams
+
 **[14.08.17]**
 
 - Upstreamed Linux kernel to 3.18.65
