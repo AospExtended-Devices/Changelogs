@@ -1,5 +1,13 @@
 ## AOSP Extended 4.5 Changelog for Xiaomi MiMax Helium
 ---
+
+**[20171916]**
+- Update to MIUI 7.9.15 vendor blobs
+- Switched to AEX default icons (Clear data/cache in Launchers app settings to get them when dirtyflash)
+- Fixed Conference Call bug (Thx @nijel8)
+- Included latest firmware 7.9.15 (From now on, it will always be included, so don't bother again about firmware)
+
+
 **[2017/09/11]**
 - Added USB-Fastcharge (max 900mA)  
 - Fixed "sdcard corrupt" error on exFAT partitions
