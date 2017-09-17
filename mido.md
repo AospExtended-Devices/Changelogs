@@ -1,5 +1,23 @@
 ## Redmi Note 4 (mido) specific changelogs
 
+**[17.09.17]**
+
+- Fixed Phone FC on Roaming
+
+**[16.09.17]**
+
+- Upstreamed kernel to 3.18.71
+- Added FP Unlock Boost
+- Added Keypress Booster
+- Added Framework Boost
+- Added all remaining Boostframework Overlays Supported by AEX
+- Added Supporting libs and configs for Boost Framework
+- Increase Speaker Sound
+- Increase Call Clarity
+- Again Dexpreopt enabled & fixed
+- Hide sRGB toggle from Dev Options (We have KCAL support for that)
+- Random Reboot Should be Fixed now
+
 **[20.08.17]**
 
 - Kernel Upstreamed to 3.18.66
