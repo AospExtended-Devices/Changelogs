@@ -1,5 +1,8 @@
 ## Xiaomi Mi 4c (libra) specific changelogs
 ---
+**[20.09.17]**
+- Improve the bootloader compatiblity for kernel
+
 **[10.08.17]**
 - Update post_boot tweaks from lineage
 
