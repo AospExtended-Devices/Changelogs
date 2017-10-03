@@ -1,9 +1,41 @@
-## AospExtended V4.6 is live! [23/9/17]
+## AospExtended V4.6 for Kenzo!
 
 **Download package available on our website. You can check your OTA as well.**
 
 **Flash latest firmware (Legit one), if possible I'll update the links in the OP.
 Don't report bugs unless you have clean flashed ROM and you are on stock kernel.**
+
+**_3rd October Update can be dirty flashed_**
+
+**[3/10/17]**
+
+**_Kernel:_**
+- Escrima  X11 Kamui Lightning Blade
+- Merge latest CAF Tag in Kernel
+- Sched tweaks from Franco kernel
+- Merge upstream commits from Linux kernel
+- Merge upstream commits from Google kernel
+- Merge latest SDCardFS in kernel
+- Fix few leaks 
+- Workquene tweaks
+- Update defconfigs to fix LZ4 ZRAM compression
+- Enable all TCPs
+- Tweak Westwood TCP
+- Enable Fast-charge in defconfig
+- Enable Workquene in defconfig
+- Merge many security and upstream patches
+- Minor bug fixes
+
+**_Device:_**
+- Disable LLStats
+- Enable control of longshot via parameters in Camera HAL
+- Resolve the problem of memory leaks in exception flow in Camera HAL
+- Add property for camera burst exposures
+- Re-enable camera recording at low power
+
+*_Also updated SnapdragonCamera with latest translations_*
+
+ **[23/9/17]**
 
 **_Device related changelog_**
 - Enable Bluetooth WBS
