@@ -5,7 +5,8 @@
 **Flash latest firmware (Legit one), if possible I'll update the links in the OP.
 Don't report bugs unless you have clean flashed ROM and you are on stock kernel.**
 
-**_3rd October Update can be dirty flashed_**
+**_3rd October Update can be dirty flashed._**
+
 **_5th and 7th October Update can be dirty flashed as well_**
 
 **[7/10/17]** and **[5/10/17]**
@@ -13,6 +14,8 @@ Don't report bugs unless you have clean flashed ROM and you are on stock kernel.
 - Update kernel 
 - Revert "Disable LLStats"
 - Fix package installer issue
+
+**_A quick fix for 5th October Patch Update._**
 
 **[3/10/17]**
 
