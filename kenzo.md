@@ -6,6 +6,13 @@
 Don't report bugs unless you have clean flashed ROM and you are on stock kernel.**
 
 **_3rd October Update can be dirty flashed_**
+**_5th and 7th October Update can be dirty flashed as well_**
+
+**[7/10/17]** and **[5/10/17]**
+- Merge October Security Patch
+- Update kernel 
+- Revert "Disable LLStats"
+- Fix package installer issue
 
 **[3/10/17]**
 
