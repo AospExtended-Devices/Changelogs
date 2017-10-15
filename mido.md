@@ -1,10 +1,9 @@
 ## Redmi Note 4 (mido) specific changelogs
 
-**[08.10.17]**
+**[15.10.17]**
 
-- Kernel Upstreamed to 3.18.74
+- Kernel Upstreamed to 3.18.75
 - Install Button Grayed out on 3rd Party apps Fixed
-- Reverted Camera blobs to miui 7.5.4 to make ov13855 work (Thanks to @highwaystar_ru)
 - Few Minor Optimizations
 
 **[05.10.17]**
