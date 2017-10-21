@@ -1,21 +1,27 @@
 ## AospExtended V4.6 for Kenzo!
 
-**Download package available on our website. You can check your OTA as well.**
+**[21.10.17]**
+- Enable selfie mirror by default
+- Tweak adaptive brightness
 
-**Flash latest firmware (Legit one), if possible I'll update the links in the OP.
-Don't report bugs unless you have clean flashed ROM and you are on stock kernel.**
+**Escrima X12 Kamui-LightingBlade-PurpleElectricity**
+- Merge latest CAF tag
+- Fix few deadlocks and memory leaks
+- Merged KRACK Patch and security patch
+- Fix Autoshutdown issue
+- Add FingerprintID resume feature from OnePlus
+- Fix fingerprint sometimes not detecting
+- Light sensor fixes
+- Fix Battery % issues
+- Pushed Readahead value to 512
+- Enable Arch power saving
 
-**_3rd October Update can be dirty flashed._**
-
-**_5th and 7th October Update can be dirty flashed as well_**
 
 **[7/10/17]** and **[5/10/17]**
 - Merge October Security Patch
 - Update kernel 
 - Revert "Disable LLStats"
 - Fix package installer issue
-
-**_A quick fix for 5th October Patch Update._**
 
 **[3/10/17]**
 
