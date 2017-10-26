@@ -9,7 +9,7 @@ _Note: Build can be dirty flashed, no issues._
 - Fix many memory leaks in all departments
 - Fix compilation error and warnings
 - Silence few logspams
-- Fix few weried logcats
+- Fix few weird logcats
 - Update Workquene patch
 - Add state notifier driver
 - Update PM/devfreq patches
