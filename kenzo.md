@@ -1,9 +1,9 @@
 ## **New update of AospExtended 4.6 for Kenzo! Final Nougat Update!**
 
-**[26.10.17]**
+**[28.10.17]**
 _Note: Build can be dirty flashed, no issues._
 
-**Escrima X16:**
+**Escrima X17:**
 - Update to latest security patches in kernel
 - Update KRACK patch
 - Fix many memory leaks in all departments
@@ -15,7 +15,6 @@ _Note: Build can be dirty flashed, no issues._
 - Update PM/devfreq patches
 - Enable WLAN Offload packets
 - Enable IPV6
-- Enable Speaker_EXT_PA
 - Enable advanced netfilter
 - Enable TTL
 - Enable MSM_BT_Power
@@ -23,8 +22,15 @@ _Note: Build can be dirty flashed, no issues._
 - Fix few CLK sfuff
 - Remove fingerprintD quick resume from OnePlus
 - Fix batter percentage issues completely
+- Increase Notification LED brightness
+- Slimbus Overclocking
+- Fix some headset detection
+- Fix amd improve ASoc patches
+- Slimbus driver improvements
+- Update and improve ALSA USB audio
 
 **Device:**
+- Disable Dynamic Range Control
 - Enable Arch power by default
 - Enable State notifier by default
 - Update overlays for camera app
