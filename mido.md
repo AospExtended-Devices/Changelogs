@@ -2,12 +2,12 @@
 
 **[18.11.17]**
 
-> Kernel Upstreamed to 3.18.82
-> Safety Net Fixed (No Need of Magisk Anymore)
-> Updated build fingerprint according to latest MiUi
-> Compiled HWUI for better Performance
-> Fixed HW Button Illumination
-> Increased Speaker Volume
+- Kernel Upstreamed to 3.18.82
+- Safety Net Fixed (No Need of Magisk Anymore)
+- Updated build fingerprint according to latest MiUi
+- Compiled HWUI for better Performance
+- Fixed HW Button Illumination
+- Increased Speaker Volume
 
 **[15.10.17]**
 
