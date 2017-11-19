@@ -1,7 +1,4 @@
-### Osprey specific changelog [21st Oct 2017]
+### Osprey specific changelog [19th Nov 2017]
 
-* KRACK vulnerability patch
-* Upstreamed kernel to 3.10.107
-* Added few features to kernel like dt2w,Thermal throttling,USB fast charge,KCAL etc
-* Kernel optimized and compiled with UBERTC 6.0
-* Blocked few wakelocks
+* Nov 2017 Security Patch
+* Patch for safety net bypass (without flashing magisk)
