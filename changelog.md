@@ -16,7 +16,8 @@
 - Update AEX Papers
 - Update all pre-built packages
 - Performance enhancements and bug fixes
-[21.3.2018]
+  
+  [21.3.2018]
 - Merge latest security patch
 - Update pre-built apks
 - Update all packages
