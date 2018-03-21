@@ -16,3 +16,12 @@
 - Update AEX Papers
 - Update all pre-built packages
 - Performance enhancements and bug fixes
+[21.3.2018]
+- Merge latest security patch
+- Update pre-built apks
+- Update all packages
+- Fix some translations
+- Port auto face-unlock from Oreo
+- Add switch for faceunlock
+- Fix DND mode
+- Update pocket judge
