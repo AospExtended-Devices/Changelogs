@@ -24,5 +24,5 @@
 - Fix some translations
 - Port auto face-unlock from Oreo
 - Add switch for faceunlock
-- Fix DND mode
+- Disable HW Keys haptic feedback on lockscreen
 - Update pocket judge
