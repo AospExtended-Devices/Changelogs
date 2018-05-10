@@ -1,0 +1,3 @@
+* AEX sources updated to v5.5
+* Fixed excessive throttling issue
+* As usual, some minor fixes here and there, check github to know more
