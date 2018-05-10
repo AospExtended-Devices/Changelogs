@@ -1,3 +1,5 @@
+CLEAN FLASH, IF NOT CAMERA WILL NOT WORK.
+
 Merge May security patch (8.1.0_r26)
 Update all packages
 Update all translations
