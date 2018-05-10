@@ -1,6 +1,6 @@
-# Changelog of AospExtended v5.5 for kenzo!
+Changelog of AospExtended v5.5 for kenzo!
 
-**[10.05.18]**
+[10.05.18]
 
 - Based on new trees
 - New Oreo 1.3.7 blobs
