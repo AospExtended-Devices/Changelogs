@@ -1,0 +1,7 @@
+> Enabled Always on Display
+> Fixed Vilte
+> Improve Call Quality
+> Enabled SmartPixels
+> Added Boost Framework
+> Fixed few Wakelocks
+> exFAT should be working now (Test & Report)
