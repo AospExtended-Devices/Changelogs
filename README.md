@@ -1,6 +1,8 @@
 # AospExtended OTA's device specific changelogs
 
-_*Our OTA app has a feature to give device specific changelogs! You can go here [Device specific changelogs](https://github.com/AospExtended-Devices/Changelogs) to upload changelogs. For each new version, you need to upload the changelog to this repository in the device specific folder._
+_Our OTA app has a feature to give device specific changelogs! You can go here [Device specific changelogs](https://github.com/AospExtended-Devices/Changelogs) to upload changelogs. For each new version, you need to upload the changelog to this repository in the device specific folder._
+
+The file name must be in this format: yyyyMMdd-Hm.txt
 
 
 **Important Links:**
