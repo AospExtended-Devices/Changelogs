@@ -1,0 +1,8 @@
+AospExtended ROM:
+
+- Nothing for now
+
+Device Specific:
+
+- Fix thermal underclocking
+- Some other fix here and there
