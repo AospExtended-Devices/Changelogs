@@ -1,0 +1,1 @@
+- Fixed Whatsapp videos not playing issue
