@@ -5,4 +5,5 @@ AospExtended ROM:
 Device Specific:
 
 - Fix thermal underclocking
+- Removed SmartPixels (It's useless for Capricorn and Natrium)
 - Some other fix here and there
