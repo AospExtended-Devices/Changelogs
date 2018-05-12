@@ -1,0 +1,5 @@
+* Enabled Smart Pixels (enhancements)
+* Updated Display and Media Proprietary Blobs (updates)
+* Uncapped Max CPU Frequency (fixes)
+* Restored Audio Tuning Mixer control (fixes)
+* KERNEL: Updated sdcardfs and F2FS drivers (fixes)
