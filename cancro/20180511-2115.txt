@@ -1,0 +1,161 @@
+====================
+     05-12-2018
+====================
+
+   * device/xiaomi/cancro/
+858ea4f  Revert "cancro: Add Lineage power hal to manifest"  [Rizky Benggolo]
+f353776  Revert "cancro: Use QTI HIDL power HAL"  [Rizky Benggolo]
+240c71b  Revert "cancro: power: Update power hal extension for new qti hal"  [Rizky Benggolo]
+cfcbeff  Revert "cancro: Use binderized power hal for mi4"  [Rizky Benggolo]
+6493e45  cancro: Drop unused HWC2 HIDL impl  [Rizky Benggolo]
+3c03da2  cancro: mkhw: Remove unused ts_640  [Rizky Benggolo]
+   * frameworks/base/
+5a9b99a  Automatic translation import  [Shubham Singh]
+   * kernel/xiaomi/cancro/
+5aefc28  ANDROID: sdcardfs: Set s_root to NULL after putting  [Rizky Benggolo]
+1f21d99  ANDROID: sdcardfs: d_make_root calls iput  [Rizky Benggolo]
+3cba585  ANDROID: sdcardfs: Check for private data earlier  [Rizky Benggolo]
+33328fc  ANDROID: sdcardfs: Fix sdcardfs to stop creating cases-sensitive duplicate entries.  [Rizky Benggolo]
+
+====================
+     05-11-2018
+====================
+
+   * manifest/
+9a652f3  manifest: Update Readme  [AmolAmrit]
+   * packages/apps/Extensions/
+7c8543d  Automatic translation import  [Shubham Singh]
+   * packages/apps/FMRadio/
+cda85f0  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+8904688  Automatic translation import  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+bdbb35c  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+aad47df  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+0d10764  Automatic translation import  [Shubham Singh]
+   * vendor/aosp/
+793715d  qcom: Enable media extensions for all QC devices  [YoDevil]
+
+====================
+     05-10-2018
+====================
+
+   * build/make/
+4c0d7e3  Merge tag 'android-8.1.0_r26' into HEAD  [Shubham Singh]
+   * device/aosp/sepolicy/
+1f42308  sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble  [Shubham Singh]
+5c8e64f  Revert "sepolicy: suppress denial logspam"  [Shubham Singh]
+a309be5  common: Remove stale ntfs genfscon policy  [Shubham Singh]
+b96eebc  sepolicy: Improve external storage rules  [Shubham Singh]
+26a98dc  common: Add sf_lcd_density_prop type and labelled props  [Shubham Singh]
+646812d  sepolicy: remove local adb port property  [Shubham Singh]
+691b465  Revert "sepolicy: Use custom ADB over network property"  [Shubham Singh]
+   * device/qcom/sepolicy/
+99b4642  Merge https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [Shubham Singh]
+   * frameworks/av/
+2aad304  Merge tag 'android-8.1.0_r26' into HEAD  [Shubham Singh]
+   * frameworks/base/
+88aa285  Add support for getAtr api  [Shubham Singh]
+b2d559e  Merge tag 'android-8.1.0_r26' into HEAD  [Shubham Singh]
+   * frameworks/native/
+bcb2420  Merge tag 'android-8.1.0_r26' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+fc4d705  TelephonyComponentFactory: Overload makeSubscriptionInfoUpdater  [Shubham Singh]
+1f83c1c  Add support of new HIDL service  [Shubham Singh]
+7cc19d1  DcTracker: Change access modifier of isNvSubscription to protected  [Shubham Singh]
+b643244  Fix Acess modifiers as part of extending ServicestateTracker.  [Shubham Singh]
+f4f2a46  IMS: Use proper phone to route emergency calls  [Shubham Singh]
+35152e8  Fix a cherrypick mistake  [Shubham Singh]
+   * manifest/
+bbc0c1e  Merge tag 'android-8.1.0_r26' into 8.1.x  [Shubham Singh]
+   * packages/apps/Extensions/
+566da72  v5.5 [2/2]  [Shubham Singh]
+32b2f0c  Add titles for search index  [Shubham Singh]
+   * packages/apps/Settings/
+73025f1  Add index rules for our Extensions  [Shubham Singh]
+ad0e417  Nuke custom regex based getFormattedKernelVersion() method  [Shubham Singh]
+   * packages/services/Telephony/
+35be35a  Add getAtr support  [Shubham Singh]
+00ff688  Telephony: Add ERI configuration for U.S. Cellular  [Shubham Singh]
+32d1255  Telephony: Fix translatability of network modes  [Shubham Singh]
+bc8037a  Revert "Quick solution for preferred_network_mode array"  [Shubham Singh]
+3cd350a  Add TD-SCDMA related network mode options  [Shubham Singh]
+9c3d921  Fix multiple apn items issue  [Shubham Singh]
+56b83bb  Merge tag 'android-8.1.0_r26' into HEAD  [Shubham Singh]
+   * system/core/
+8213319  Merge tag 'android-8.1.0_r26' into HEAD  [Shubham Singh]
+   * system/sepolicy/
+ef30a81  Hide some denials.  [Shubham Singh]
+751cd31  priv_app: suppress denials for /proc/stat  [Shubham Singh]
+1de6a15  Suppress denials for non-API access  [Shubham Singh]
+5ca48f8  priv_app: move logspam suppression to core policy  [Shubham Singh]
+e1721a3  Suppress denials from sdcardfs (b/67454004)  [Shubham Singh]
+07499ff  Allow system_server to update timerslack_ns for hal_audio_default  [Shubham Singh]
+2165189  system_server: allow writing to timerslack_ns  [Shubham Singh]
+d549c1a  Sepolicy: Fix perfprofd path  [Shubham Singh]
+eee0ef2  Revert "sepolicy: Conditionally restore support for legacy f_adb interface"  [Shubham Singh]
+   * vendor/aosp/
+6abf2ec  Merge "vendor: Update prebuilt apks" into 8.1.x  [Gerrit Code Review]
+81b89a8  vendor: Update prebuilt apks  [TheImpulson]
+9a7c841  v5.5 [1/2]  [Shubham Singh]
+
+====================
+     05-09-2018
+====================
+
+   * frameworks/base/
+accb19e  base: catch what you can't explain  [Shubham Singh]
+c2c5bc8  Running services icon toggle [1/2]  [Shubham Singh]
+ec2f110  base: SystemUI: fix sizing issues of qs headers  [Shubham Singh]
+a9377a1  [1/2] base: custom header image provider  [Shubham Singh]
+83d0fac  [1/2] base: add back qs header images  [Shubham Singh]
+f8a5dfe  Suspend Actions [1/3]  [Shubham Singh]
+22ecde7  FWB: all tile scroller for quickbar settings [1/2]  [Shubham Singh]
+   * hardware/qcom/fm/
+4bcf9a3  Automatic translation import  [Michael Bestas]
+   * manifest/
+6c63259  Track more repos  [Shubham Singh]
+bbcb98a  Manifest for Android 8.1.0 Release 26 (OPM2.171019.029.B1)  [The Android Open Source Project]
+8cfb590  Manifest for Android 8.1.0 Release 25 (OPM2.171019.029.A1)  [The Android Open Source Project]
+   * packages/apps/Extensions/
+589603f  Running services icon toggle [2/2]  [Shubham Singh]
+cd2a3b9  Extensions: Add back qs header images [2/2]  [Shubham Singh]
+ec21e1c   Suspend Actions [3/3]  [Shubham Singh]
+3a8d10f  Add all tile scroller for quickbar settings [2/2]  [Shubham Singh]
+   * packages/apps/OmniStyle/
+5d0aaf4  Add itsaalex poison headers  [Shubham Singh]
+63e7d4b  omnistyle: Add ColourLovers tinted collection  [Shubham Singh]
+7c83aaf  OmniStyle: fix light dark theme support  [Shubham Singh]
+bac45c9  OmniStyle: remove Omni theme  [Shubham Singh]
+033d184  OmniStyle: resize headers  [Shubham Singh]
+17efec0  OmniStyle: adjust styles to match settings  [Shubham Singh]
+309d211  OmniStyle: fix spinner text color for now  [Shubham Singh]
+ce48586  OmniStyle: fix build for android-8.0  [Shubham Singh]
+682c435  OmniStyle: add theme headers and friends  [Shubham Singh]
+8a4431b  OmniStyle: Clean up weather condition icons  [Shubham Singh]
+d593cfd  OmniStyle: apply default size on omnirom logo  [Shubham Singh]
+358bd45  OmniStyle: use vector logo  [Shubham Singh]
+e3c2024  OmniStyle: Added 'Colorful' headers  [Shubham Singh]
+73a453f  OmniStyle: guard against missing images  [Shubham Singh]
+   * packages/apps/Stk/
+03c2929  Automatic translation import  [Shubham Singh]
+698ec1f  STK application should not show the STK menu for unsupported card.  [Shubham Singh]
+   * packages/services/Telephony/
+c307368  Suspend Actions [2/3]  [Shubham Singh]
+   * system/vold/
+360af7b  Workaround perdev_minors path change in Linux  [Shubham Singh]
+   * vendor/aosp/
+357f225  Build OmniStyle  [Shubham Singh]
+
+====================
+     05-08-2018
+====================
+
+   * frameworks/base/
+78050b6  Make % txt dynamic for square style too  [Shubham Singh]
+6343a4f  Merge "Kill some lockscreen related animations" into 8.1.x  [Gerrit Code Review]
+f089c3f  Merge "battery light: Use config_multicolorled overlay to set battery led color" into 8.1.x  [Gerrit Code Review]
+   * hardware/qcom/bt-caf/
+90fd648  Load bluetooth firmwares from /vendor  [FireLord1]
