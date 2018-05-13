@@ -1,0 +1,5 @@
+* Merged upstream changes from abhishek's source
+* Most importantly BT and Wifi mac address are fine now
+* Cleaned up some stuffs from kernel, DT2W should work fine now(It was fine for me on last build too)
+* Since many users were asking for smart pixel, enabled it for tissot(Although it won't be much useful for LCD display)
+* Merged updated translations
