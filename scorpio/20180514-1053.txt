@@ -1,0 +1,3 @@
+* Addressed all thermal engine selinux denials
+* Updated GPS blobs
+* Fixed color tint issue on low brightness
