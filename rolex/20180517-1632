@@ -1,0 +1,19 @@
+===== rolex: AEX Oreo v5.5 =====
+
+Changelog:
+
+-Added: HDR Fix in HAL3
+-Optimized: Dex2oat
+-Enabled: Pinner Service
+-Binderized: Camera, IR and Graphics
+-Improvements in Noise
+-Disabled: Enhanced SCO commands
+-Updated: JPEG thumbnail sizes entries
+-Increased: JPEG Quality
+-Added/Enabled: Wakelock Blocker (Kernel)
+-Added: Impulse, Elementalx, Despair, Lionfish, Lionheart and Bioshock Governors
+-Added: Alucard Governor / ZEN I/O Scheduler
+-Merged: LA.UM.6.6.r1-08300-89xx.0 of CAF
+-Enabled: TurboPowerCharge Overlay (Trying fix the Slow Charging Fake Message in lockscreen)
+-Increased: FastThreshold Overlay to 1000 (Yet try fix the fake message in lockscreen :p) 
+-Enabled: QPowerSave (for Battery Backup)
