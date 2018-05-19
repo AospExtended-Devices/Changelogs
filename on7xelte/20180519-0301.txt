@@ -1,0 +1,8 @@
+AospExtended 5.5 Changelog!
+--------------------------
+2018.05.19
+--------------------------
+
+Add Always On Display
+Audio Enhancements
+some more things
