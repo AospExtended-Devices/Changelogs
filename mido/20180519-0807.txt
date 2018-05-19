@@ -1,0 +1,5 @@
+> Kernel Upstreamed to v3.18.109
+> Added XiaomiParts (Go to Settings/Extensions/General Tweaks)
+> Updated Thermal Blobs
+> Updated Time Blobs
+> Performance Improvements
