@@ -1,0 +1,7 @@
+=============
+x2 changes :-
+=============
+
+- Fixed VILTE ( Video Calling over Lte ) Completely
+- Added Leeco 28S Camera (Hal 1 Toggle No Longer required ) Live mode and Pano doesnt work
+- Added New and Switched to new governer for big cluster ( Much imporved Battery now )
