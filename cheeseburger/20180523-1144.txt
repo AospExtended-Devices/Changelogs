@@ -1,0 +1,127 @@
+====================
+     05-23-2018
+====================
+
+   * device/oneplus/msm8998-common/
+ee0ead4  CameraHAL1 for some apps  [drpradsms]
+cacb3cd  AEX-ify  [drpradsms]
+f8ecd45  Revert "msm8998: enable full screen aspect ratio"  [drpradsms]
+6c396f8  Enable SmartPixels for our Device  [drpradsms]
+ac0bce0  Add VoLTE props  [drpradsms]
+de32f4e  Changes to adapt Pocketmode  [drpradsms]
+859dbcd  Change Target_2ND_ARCH_VARIANT  [drpradsms]
+   * kernel/oneplus/msm8998/
+0ae6431  ASoC:WCD9335: Enhance SLimbus CLK Gear  [APOPHIS9283]
+   * vendor/oneplus/
+49cdbf9  Merge remote-tracking branch 'upstream/oc-mr2' into oc-mr2  [drpradsms]
+2a77c41  oneplus2: Move bluetooth firmware to /vendor/firmware  [drpradsms]
+c6e0c64  oneplus2: hexedit some blobs to /vendor path  [drpradsms]
+2ad7547  msm8998: prebuilt chromatix camera modules  [drpradsms]
+
+====================
+     05-22-2018
+====================
+
+   * frameworks/base/
+1f0f4ec  Fix notification transact fail problem  [Shubham Singh]
+fd42f60  NavbarTuner: Fix NPE  [Shubham Singh]
+cec28be  [PackageManagerService]: Fixes can not boot issue.  [Shubham Singh]
+27868d5  Check for Face Unlock Running before skipping bouncer via trusted face to prevent skipping bouncer with other trusted options.  [Shubham Singh]
+60af002  Adding optimization to reduce callbacks to TextClock  [Shubham Singh]
+e1c9aad  Ensure VolumeRecord with UUID exists before modifying  [Shubham Singh]
+e79ad92  SystemUI: Don't append app name to file on lockscreen  [Shubham Singh]
+9477657  Improve power menu advanced toggle icon  [Shubham Singh]
+fd4d83b  Fix another potential ChooserActivity related System FC  [Shubham Singh]
+c676d47  Brightness Buttons: Improve touch area  [Shubham Singh]
+26b0359  Add an option to force pre-O apps to use full screen aspect ratio  [Shubham Singh]
+f06f3be  Disable fine-grained logging  [Shubham Singh]
+432d031  Led light preview: switch led off before changing the color  [Shubham Singh]
+20852ed  Stock Recents icon pack code fixes  [Shubham Singh]
+9f0e7a2  SlimRecents: add fingerprint scanner gestures [2/2]  [Shubham Singh]
+7de1fef  Add QS pulldown with one swipe on FP sensor [1/2]  [Shubham Singh]
+c699250  Allow to dismiss notifications with FP left/right swipe [1/2]  [Shubham Singh]
+   * kernel/oneplus/msm8998/
+10a61cd  mdss: Change recovery count to 3  [APOPHIS9283]
+d7cca56  oneplus5: don't use dwc3 debugfs entries  [APOPHIS9283]
+80928c5  dwc3: make debugfs entries optional  [APOPHIS9283]
+575d8f3  Merge tag 'LA.UM.6.4.r1-08500-8x98.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into unified  [APOPHIS9283]
+815fbc7  Merge tag 'LA.UM.6.4.r1-08500-8x98.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into unified  [APOPHIS9283]
+9e8c762  Merge tag 'LA.UM.6.4.r1-08500-8x98.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into unified  [APOPHIS9283]
+265f729  Merge tag 'LA.UM.6.4.r1-08500-8x98.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into unified  [APOPHIS9283]
+   * packages/apps/Launcher3/
+e7df42a  Launcher3: Only fail for the current user  [Shubham Singh]
+42c9584  WallpaperManagerCompat: correct build version check  [Shubham Singh]
+7fb3919  Exclude from recents  [Shubham Singh]
+af9ff46  Custom icon chooser: fix FC on some devices  [Shubham Singh]
+   * packages/apps/Messaging/
+f653132  Don't crash on unsupported shared content type  [Shubham Singh]
+60762fe  Request external storage permission before handling shared files  [Shubham Singh]
+470bd88  Allow app disable  [Shubham Singh]
+a0374af  Fix blocked contacts crash  [Shubham Singh]
+7d7e382  Fixed vcard handling  [Shubham Singh]
+e0f0d7d  Use light navigation bar  [Shubham Singh]
+8a80290  Automatic translation import  [Shubham Singh]
+ddd5824  Automatic translation import  [Shubham Singh]
+9d9d796  Automatic translation import  [Shubham Singh]
+29399f5  Automatic translation import  [Shubham Singh]
+9ef0a44  Automatic translation import  [Shubham Singh]
+785e160  Automatic translation import  [Shubham Singh]
+a4249dc  My bad  [Shubham Singh]
+5a5a499  Automatic translation import  [Shubham Singh]
+e607c49  Automatic translation import  [Shubham Singh]
+b68ee35  Automatic translation import  [Shubham Singh]
+e34a787  Add 'new message' shortcut using the API introduced in sdk25  [Shubham Singh]
+b813480  String improvements  [Shubham Singh]
+bf276d7  Show snackbar instead of toast when deleting conversation  [Shubham Singh]
+d484835  MediaPicker: Check for NPE  [Shubham Singh]
+1dca078  Fix bad recycle on sending two mms in a row  [Shubham Singh]
+e3c1826  Use app settings for conversation settings if no custom set  [Shubham Singh]
+6a6aabe  Fix messaging app crashing after a few MMS  [Shubham Singh]
+224cb15  Fixed storage permission issue for attachments  [Shubham Singh]
+72cf3b3  Added support for video and audio mms attachments  [Shubham Singh]
+84b6cb4  Add UI/UX capability to attach a saved video to a MMS message  [Shubham Singh]
+e61ac7b  Implement saved video attachments in MMS  [Shubham Singh]
+20e4062  Fix messaging app crashing when storage memory is full  [Shubham Singh]
+491eb0e  Fix menu item highlight color.  [Shubham Singh]
+b687a8a  Improve swipe to delete strings  [Shubham Singh]
+b1cf60c  Toggable keyboard emoticons access  [Shubham Singh]
+   * packages/apps/Settings/
+63954f8  Fingerprint enroll automatic navbar toggle: fixes  [Shubham Singh]
+30a26de  Disable navbar on fingerprint enroll if bottom fingerprint  [Shubham Singh]
+6aeb2f1  Add QS pulldown with one swipe on FP sensor [2/2]  [Shubham Singh]
+735b9ed  Allow to dismiss notifications with FP left/right swipe [2/2]  [Shubham Singh]
+   * packages/apps/SlimRecents/
+d166729  Fix FC on swipe gesture when no recent apps  [Shubham Singh]
+45e0c8f  SlimRecents: add fingerprint scanner gestures [1/2]  [Shubham Singh]
+
+====================
+     05-21-2018
+====================
+
+   * frameworks/av/
+2d42cab  libstagefright: Add more sample rates for FLAC  [AmolAmrit]
+2aa7a6e  libstagefright: Support disabling metadata with a property  [AmolAmrit]
+1234346  libstagefright: bring back certain 64bit variants for software codecs  [AmolAmrit]
+ab95552  Stagefright: Allow setting high-framerates in CameraSource  [AmolAmrit]
+cce4ae5  Stagefright: Do not skip frames in time-lapse-source for high-speed  [AmolAmrit]
+72a282b  Camera: Add support for manual 3A.  [AmolAmrit]
+aa97f7f  camera: allow device to append camera parameters  [AmolAmrit]
+1a70a80  MediaProfiles: Enhance profiles for extended usecases  [AmolAmrit]
+   * hardware/qcom/audio-caf/msm8952/
+61ebd0f  Merge remote-tracking branch 'caf/LA.BR.1.3.7_rb1.11' into lineage-15.1-caf-8952  [Ethan Chen]
+   * hardware/qcom/media-caf/msm8952/
+892df5c  Merge remote-tracking branch 'caf/LA.BR.1.3.7_rb1.11' into lineage-15.1-caf-8952  [Ethan Chen]
+   * system/bt/
+9e66084  Add support to force disable enhanced sco commands  [thp1997]
+
+====================
+     05-20-2018
+====================
+
+
+====================
+     05-19-2018
+====================
+
+   * device/oneplus/msm8998-common/
+e4e604a  msm8998: update prebuilt google camera  [liquid0624]
