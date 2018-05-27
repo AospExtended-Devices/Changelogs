@@ -1,0 +1,4 @@
+AospExtended v5.5 Changelog (27th May Update)
+
+* Fixed Brightness Controller
+* Fixed LED Notification
