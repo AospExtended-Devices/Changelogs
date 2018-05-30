@@ -1,0 +1,134 @@
+====================
+     05-30-2018
+====================
+
+   * device/oneplus/oneplus2/
+30832bb  system.prop : Disable data at first boot  [Shreyansh Lodha]
+ff7cf7c  overlay : Set default screen off duration to 30sec and fix a comment  [Shreyansh Lodha]
+796f836  system.prop : dex2oat only two threads when system is up and running to reduce unnecessory overhead  [Shreyansh Lodha]
+396a24b  ramdisk : set big core to 0, let them start when required  [Shreyansh Lodha]
+e63e95e  overlay : improvements to auto-brightness, added more entries  [Shreyansh Lodha]
+2c701ae  init : undervolt a little by default  [Shreyansh Lodha]
+   * manifest/
+5fa80b9  Track more packages  [Shubham Singh]
+
+====================
+     05-29-2018
+====================
+
+   * device/oneplus/oneplus2/
+7a712c1  op2: Remove cpuset foreground boost  [Shreyansh Lodha]
+cc5d4cf  op2: camera: Increase camera daemon start timeout  [Shreyansh Lodha]
+48b22b2  op2: camera: mm-camera-interface: Camera Daemon late start issue fix  [Shreyansh Lodha]
+3820daa  overlay : config : Enable SmartPixel from device end (On this device its useless though!)  [Shreyansh Lodha]
+   * frameworks/base/
+e72c211ee2a  Revert "Set System Animations to .7 by default (1 of 2)"  [Shubham Singh]
+f8730e01e76  Revert "Kill some lockscreen related animations"  [Shubham Singh]
+62861068c7b  Fix swiping away of locked task  [Shubham Singh]
+   * packages/apps/Stk/
+2af6ef4  Allow to use overlays  [Shubham Singh]
+   * packages/apps/Terminal/
+de21583  Allow to use overlays  [Shubham Singh]
+   * vendor/aosp/
+c26644e  Vendor: Add more adaptive icons  [Shubham Singh]
+
+====================
+     05-28-2018
+====================
+
+   * frameworks/base/
+b7f5af0f925  Add support for page theme color to WebView and WebChromeClient.  [Shubham Singh]
+   * packages/apps/Settings/
+fc41f69604  Revert "Set System Animations to .7 by default (2 of 2)"  [AmolAmrit]
+   * packages/apps/Terminal/
+20bbf2f  Automatic translation import  [Shubham Singh]
+c33471f  Automatic translation import  [Shubham Singh]
+53de62c  Automatic translation import  [Shubham Singh]
+f1c430d  Terminal: define app category  [Shubham Singh]
+77cbaf9  Terminal: Fix keyboard Ctrl- and ALT-key input.  [Shubham Singh]
+f5cc291  Terminal: all menu items should have their proper icon  [Shubham Singh]
+6e8cd26  Terminal: update main theme color for improved readability  [Shubham Singh]
+c9e523b  Terminal: fix preference defaults  [Shubham Singh]
+2fc9284  Terminal: volume keys as up/down  [Shubham Singh]
+3f7b258  Terminal: add runtime permissions  [Shubham Singh]
+574c5cb  TerminalKeys: Disable debug  [Shubham Singh]
+f4ccbeb  Terminal: Convert CheckBoxPreference to SwitchPreference  [Shubham Singh]
+26ae822  Terminal: Cleanup duplicate strings  [Shubham Singh]
+0096853  Some cleanup.  [Shubham Singh]
+e650ca8  Term: materialize  [Shubham Singh]
+7df4f2b  Properly clear background when changing colors.  [Shubham Singh]
+14d6534  Also use set colors for scrollback lines that aren't filled yet.  [Shubham Singh]
+afa09b9  Allow access to external storage  [Shubham Singh]
+6df7e05  Add application icon  [Shubham Singh]
+1a76d54  Add settings for fullscreen, orientation, font size, color  [Shubham Singh]
+
+====================
+     05-27-2018
+====================
+
+   * device/oppo/common/
+5d4e48d  Automatic translation import  [Akhil Narang]
+   * frameworks/base/
+946ebd65819  Fix LS weather layout with clock styles  [Shubham Singh]
+   * hardware/qcom/audio-caf/msm8996/
+bf635eae9  qcom-audio: Fixes for VNDK_VERSION=current  [Michael Bestas]
+f52e4631b  Add libhardware_headers and libsystem_headers to modules  [Michael Bestas]
+7f8f618e5  Make libqcomvoiceprocessing build with the VNDK.  [Michael Bestas]
+acdb6be5b  Make libqcomvisualizer build with the VNDK.  [Michael Bestas]
+fa595db1f  Make libqcompostprocbundle build with the VNDK.  [Michael Bestas]
+50a2bf65b  Build audio.primary.* with BOARD_VNDK_VERSION  [Michael Bestas]
+   * hardware/qcom/display-caf/msm8996/
+cde9bfae0  libqdutils: Fix for VNDK_VERSION=current  [Michael Bestas]
+74965a3a2  Build libdisplayconfig with VNDK  [Michael Bestas]
+34eb94876  Add GLESv3 as a dependency.  [Michael Bestas]
+a177cc4ba  Fix libcutils private headers  [Michael Bestas]
+8378513a9  Build libqdMetaData with BOARD_VNDK_VERSION  [Michael Bestas]
+0e995bc9a  Build lights.msm8996 with the VNDK.  [Michael Bestas]
+e63a93bcf  Use header lib instead of using global include path  [Michael Bestas]
+c7093348e  Mark msm8996 modules LOCAL_VENDOR_MODULE  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8996/
+3a79c5c6e  vdec: Fixes for VNDK_VERSION=current  [Michael Bestas]
+153c03933  Build libOmxVdec and libOmxVenc with BOARD_VNDK_VERSION  [Michael Bestas]
+8d8553b51  Build libstagefrighthw with BOARD_VNDK_VERSION  [Michael Bestas]
+a8471c71e  Add libutils to msm8996 modules  [Michael Bestas]
+   * hardware/qcom/wlan-caf/
+0a42dd7  Make wcnss_service build with the VNDK.  [Michael Bestas]
+   * packages/apps/Jelly/
+8ce60ba  Jelly: override via browser  [Shubham Singh]
+   * packages/apps/Snap/
+d19120729  SnapdragonCamera: Change static nature for persist flag  [davidevinavil]
+611cf3c03  Snap: Check for ACCESS_FINE_LOCATION instead of ACCESS_COARSE_LOCATION  [davidevinavil]
+   * vendor/aosp/
+87b7a2b  vendor: Add option to use Jelly  [Shubham Singh]
+b2202b7  vendor: Add option to add Gcam  [Shubham Singh]
+
+====================
+     05-26-2018
+====================
+
+   * device/oneplus/oneplus2/
+b4dc857  ramdisk : spectrum : Remove touch key config values  [Shreyansh Lodha]
+5f9e564  Add support for spectrum  [Shreyansh Lodha]
+36b8467  Revert : Add custom fp service in device tree & Display Curves  [Shreyansh Lodha]
+   * frameworks/base/
+baf699065a1  Keyguard items: code improvements  [Shubham Singh]
+1b4cad1d316  Introduce lockscreen clock/date styles [1/2]  [Shubham Singh]
+6214af93349  Expose two target preference divider color  [Shubham Singh]
+c908ff994a7  Allow SmartPixels to bypass check for whether a window is obscured  [Shubham Singh]
+4ce6d9d292a  Allow to disable the Wallpaper tint [1/2]  [arghyac35]
+   * kernel/oneplus/msm8994/
+b65dec2e61c  Disable Boeffla's TouchKey Control  [Shreyansh Lodha]
+   * packages/apps/Extensions/
+4037a49  Keep things uniform  [Shubham Singh]
+f4430ad  Introduce lockscreen clock/date styles [2/2]  [Shubham Singh]
+ab5c677  Allow to disable the Wallpaper tint [2/2]  [arghyac35]
+   * vendor/aosp/
+c1e3de1  Theme lockscreen clock styles  [Shubham Singh]
+07a3769  Theme two target preference vertical divider  [Shubham Singh]
+ff5f3fe  tools: getb64key - print the base64 version of a PEM public key file  [Shubham Singh]
+6798f48  repopick: Allow to pick changes by URL  [Shubham Singh]
+af535e6  repopick: Actually print the patchset number  [Shubham Singh]
+372e5e8  repopick: Ignore the trailing slash in change numbers  [Shubham Singh]
+237777d  repopick: Try to keep the changes sorted  [Shubham Singh]
+e52e76b  repopick: fix pick in the case of same name/path  [Shubham Singh]
+
