@@ -22,4 +22,3 @@ b00ee1a  Add edge gestures (2/2)  [arghyac35]
 b8e5d36  Vendor: Add some more accents [2/3]  [APOPHIS9283]
 5b11f95  Make a small adjustment to the boot animation. Thanks again Yoinx  [APOPHIS9283]
 7dca54f  Do not ship Substratum  [APOPHIS9283]
-
