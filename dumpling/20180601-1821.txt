@@ -1,0 +1,25 @@
+====================
+     06-01-2018
+====================
+
+   * device/oneplus/msm8998-common/
+f8de821  msm8998: enabled Google Lens  [APOPHIS9283]
+8e103a4  msm8998: gps: Increase batch size to max  [APOPHIS9283]
+3e8109c  msm8998-common: wifi: enable higher offload state  [APOPHIS9283]
+b80a1fb  msm8998: enable full screen aspect ratio  [APOPHIS9283]
+9503b2b  msm8998-common: Boardconfig changes  [APOPHIS9283]
+09c0bf4  msm8998-common: update props (7)  [APOPHIS9283]
+2ad86bf  msm8998-common: update props (5)  [APOPHIS9283]
+544f6f0  msm8998-common: update props (2)  [APOPHIS9283]
+   * frameworks/base/
+735be79  Base: Add some more accents [3/3]  [Shubham Singh]
+   * packages/apps/Extensions/
+05782e3  Extensions: Add some more accents [1/3]  [Shubham Singh]
+b00ee1a  Add edge gestures (2/2)  [arghyac35]
+   * system/sepolicy/
+6615989  sepolicy: Add new policy for edgegesture service  [arghyac35]
+   * vendor/aosp/
+b8e5d36  Vendor: Add some more accents [2/3]  [APOPHIS9283]
+5b11f95  Make a small adjustment to the boot animation. Thanks again Yoinx  [APOPHIS9283]
+7dca54f  Do not ship Substratum  [APOPHIS9283]
+
