@@ -1,0 +1,17 @@
+===== rolex: AEX Oreo v5.5 =====
+
+Changelog: 
+
+-Added: New Device Tree and Vendor Blobs (Thanks to @33bca <3)
+
+*Now exist Support for Riva (Redmi 5A), this ROM works in Riva too <3*
+*Is necessary for instalation the TWRP Vendor, install this TWRP after install the Update OTA*
+*Link of TWRP Vendor: https://androidfilehost.com/?fid=674106145207489212*
+*Reboot to TWRP > Install > Flash Image > Select the Image > Recovery > Flash > Reboot*
+*And is recommended too clean flash (Wipe Data, Dalvik, Cache and System)*
+
+-Merged: Kernel to LA.UM.6.6.r1-08500-89xx.0
+-Fixed: Google Play Uncertified
+-Fixed: GCam Greenish
+-Fixed: Bluetooth Calls
+-Fixed: LED RGB (Not necessary use prebuilt lights HAL)
