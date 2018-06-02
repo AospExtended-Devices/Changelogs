@@ -1,0 +1,4 @@
+* Fixed USB tethering
+* Merged upstream changes from aex source
+* Fixed Doze gestures(wave,pickup gestures etc)
+* Fixed BT audio issues

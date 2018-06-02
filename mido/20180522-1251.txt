@@ -1,0 +1,4 @@
+> White/Yellow Torch Setting reset issue fixed
+> Usb Tethering Fixed
+> BT Calls & Media Fixed
+> Add Support for Face Detection in camera app

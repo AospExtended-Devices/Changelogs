@@ -1,0 +1,9 @@
+=== Changelog 20180531====
+--------Device------------
+- Fixed GreenScreen On Screen Recording
+- Fixed Camera delay
+- Fixed Flashlight delay
+- Fixed Screen Flickering
+- Rebased Device Sources From Lineage OS
+- Device Certified
+- Source Specific changes
