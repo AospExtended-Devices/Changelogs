@@ -3,4 +3,3 @@
 - Font Services added
 - Edge Gesture added
 - Improved automatic update checks
-
