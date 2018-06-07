@@ -1,0 +1,7 @@
+========================
+Santoni Specified Change
+========================
+[*] Initial Treble Enforcing Build
+[*] GCAM Fix
+[*] Kernel rebase to LA.UM.6.6.r1-08600-89xx.0
+[*] Proprietary update to LA.UM.6.6.r1-07400-89xx.0
