@@ -1,0 +1,161 @@
+====================
+     06-08-2018
+====================
+
+   * build/make/
+c0648dce2  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * device/motorola/msm8916-common/
+d04a316  msm8916-common: Drop GPS NLP support  [althafvly]
+e8349ee  msm8916-common: gps: Update data folder for Location services  [althafvly]
+352c1bf  msm8916-common: Import carrier specific GPS overlays  [althafvly]
+149d914  msm8916-common: Build new GPS implementation  [althafvly]
+f749d37  msm8916-common: Add/Update GPS config files  [althafvly]
+dc5bba8  msm8916-common: Import GNSSPPS HAL from CAF  [althafvly]
+f8d6e5d  msm8916-common: Import GPS HAL from CAF  [althafvly]
+47240cb  msm8916-common: Remove current GPS Implementation  [althafvly]
+db34b48  overlay: Die Night Light  [althafvly]
+   * frameworks/av/
+eb18bfd66  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/base/
+334b4127eeb  Automatic translation import  [Shubham Singh]
+182696a485e  Automatic translation import  [Shubham Singh]
+767b9604895  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+83a4b7101d3  LS: Add spidey clock style [1/2]  [Shubham Singh]
+349bdd97c84  Merge changes I6167ae33,I771641ee,Ic5360f29,I501e8a4d,If79caaf4, ... into 8.1.x  [Gerrit Code Review]
+ebab2a24f64  SystemUI: modify overscroll bug in NotificationStackScrollLayout  [Shubham Singh]
+8f6fe1e6785  SystemUI: Rotation button can't work at first time after rotate screen  [Shubham Singh]
+c4806ea1e84  Add permission whitelist for EmergencyInfo app  [Shubham Singh]
+a8857e4cb61  Decrease time changing between TOP & another state  [Shubham Singh]
+e3884647833  ConnectivityService doesn't send decreased score to factories at need  [Shubham Singh]
+73b86154a7d  wifidisplay: Modify WifiDisplayController  [Shubham Singh]
+681d0166d6b  wifidisplay: Use ExtendedRemoteDisplay to launch Wifi Display.  [Shubham Singh]
+36da2c91b9a  media: Parse Exif OffsetTime in MediaScanner  [Shubham Singh]
+9c8acd3bb79  Skype voice can't transfer to carkit after re-connection  [Shubham Singh]
+38322cf725b  Merge changes Ibd14ff14,Ie7b25d7b,Ic735a735,I9b59550d,Ic516a477, ... into 8.1.x  [Gerrit Code Review]
+fd4bd3d8de3  Rework thumbnail cleanup  [Shubham Singh]
+   * frameworks/native/
+62c07a413  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+026dd283f  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+a6b45131  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * manifest/
+607113f  Track more repos for translation  [Shubham Singh]
+5d07fbe  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+3bfe288  Track clang from aex  [Shubham Singh]
+   * packages/apps/Extensions/
+fcba214  Automatic translation import  [Shubham Singh]
+b8ec8ad  Automatic translation import  [Shubham Singh]
+   * packages/apps/FMRadio/
+db8cf94  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+8d0e2b534  Automatic translation import  [Shubham Singh]
+ae70d7058  Move custom strings to seperate file  [Shubham Singh]
+   * packages/apps/Messaging/
+39e1572  Automatic translation import  [Shubham Singh]
+b6578d7  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+12bdb69a  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+ac876e888d  Automatic translation import  [Shubham Singh]
+fc170e7536  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+a92c07b  Automatic translation import  [Shubham Singh]
+   * packages/providers/MediaProvider/
+adcea2d  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+7649dd49  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * prebuilts/clang/host/linux-x86/
+5c8b6d2  Update prebuilt Clang to r328903.  [Shubham Singh]
+   * system/bt/
+d1156f51  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * system/core/
+ae3b5eae8  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+b5de3bd  Vendor:Add some more fonts  [Shubham Singh]
+   * vendor/motorola/
+cd001c8  msm8916-common: Drop GPS NLP support  [althafvly]
+
+====================
+     06-07-2018
+====================
+
+   * frameworks/base/
+bbf87f46c57  Revert "Check VintfObject compatibility on boot"  [AmolAmrit]
+4d46ce9ebbf  screenrecord: add support for 18:9 resolutions  [AmolAmrit]
+45c3105b9f3  pm: Fix typo in error  [AmolAmrit]
+5950d809cb2  BatteryStats: Update WifiState even if EnergyInfo is invalid  [AmolAmrit]
+fcd2629b28f  Themes: expose tooltip text colors  [AmolAmrit]
+64a0743c8da  Fix Screenrecord share/delete buttons not working  [Shubham Singh]
+a67571dc0da  SystemUI: fix header image sides padding  [Shubham Singh]
+933022b9e2e  base: SystemUI: fix tinting of lock screen weather images  [Shubham Singh]
+bc88362c737  Status bar: Update notification count icons  [Shubham Singh]
+114fa51471c  Show infinity for large notification counts  [Shubham Singh]
+bc27e8cda35  SystemUI: small optimization for notification icon numbers  [Shubham Singh]
+04fba8c7817  systemui: Forward-port notification counters  [Shubham Singh]
+4a4800bba03  Revert "Show infinity for large notification counts"  [Shubham Singh]
+95d5c3716f6  Add a slight tint to the power menu when wallpaper tint is off  [Shubham Singh]
+9e9f85bccf3  Lockscreen clocks: add default size option for Date view [1/2]  [Shubham Singh]
+45d86fa3369  Work smarter not harder  [Shubham Singh]
+df549df0c76  Merge "base: SystemUI: Show clock on right in QS panel if center clock is set" into 8.1.x  [Gerrit Code Review]
+ec793a94f77  [1/2] base: featureize ro.recents.grid and Go Layout  [drpradsms]
+   * packages/apps/Extensions/
+15748bf  LS: Add spidey clock style [2/2]  [Shubham Singh]
+e3d48a4  Extensions: Add a footer warning for LS weather  [Shubham Singh]
+2787cb5  Forward-port notification counters  [Shubham Singh]
+8a1304c  Lockscreen clocks: add default size option for Date view [2/2]  [Shubham Singh]
+   * packages/apps/Settings/
+6504a3f484  Update search index  [Shubham Singh]
+2ecd2a3829  Move custom dp settings under Display  [Shubham Singh]
+   * packages/apps/Snap/
+73e304ce0  Snap: MY EYES ARE BLEEDING  [Shubham Singh]
+aee25529a  Snap: remove unused shutter buttons  [Shubham Singh]
+1036a61aa  Automatic translation import  [Shubham Singh]
+   * vendor/motorola/
+56a3f94  msm8916-common : Bluetooth update from aljeter OPP27.61-14-4  [althafvly]
+6a58d0e  msm8916-common : FM update from aljeter OPP27.61-14-4  [althafvly]
+8c82472  msm8916-common : GPS update from aljeter OPP27.61-14-4  [althafvly]
+409f581  msm8916-common: Add O-MR1 GPS stack  [althafvly]
+10dbb6c  msm8916-common: Remove GPS stack  [althafvly]
+
+====================
+     06-06-2018
+====================
+
+   * device/motorola/msm8916-common/
+7080cdc  msm8916-common: Disable night light  [GitHub]
+   * frameworks/av/
+d0a0c4e28  AudioPolicyEffects: fix OOB read in input source array  [AmolAmrit]
+   * frameworks/base/
+f38e6165161  base: SystemUI: Show clock on right in QS panel if center clock is set  [AmolAmrit]
+   * manifest/
+5df9a94  Manifest for android-8.1.0_r30  [The Android Open Source Project]
+   * packages/apps/Settings/
+94d8f5d371  settings: wifi: Default to numeric keyboard for static IP items  [AmolAmrit]
+   * vendor/aosp/
+f711ffa  vendor: Update prebuilt apks  [Aayush Gupta]
+   * vendor/motorola/
+24bbad3  Move some blobs to vendor  [althafvly]
+
+====================
+     06-05-2018
+====================
+
+   * device/motorola/msm8916-common/
+9f972d9  power: camera: liblight: Move to vendor  [althafvly]
+   * device/motorola/osprey/
+b21c6b5  osprey: Commonize device desc,fp,model  [althafvly]
+   * frameworks/base/
+706c8f1364c  Add dynamic theme fonts support  [Shubham Singh]
+7d6f7e67b11  Revert "Extras: Add dynamic theme fonts support for O"  [Shubham Singh]
+   * packages/apps/Extensions/
+b8e89c2  Extensions: Import AICP restart systemui api  [drpradsms]
+52403c4  [2/2] Extensions: featureize ro.recents.grid and Go Layout  [drpradsms]
+
+====================
+     06-04-2018
+====================
+
+   * vendor/motorola/
+7de5f34  msm8916-common : More blobs update from aljeter OPP27.61-14-4  [althafvly]
+
