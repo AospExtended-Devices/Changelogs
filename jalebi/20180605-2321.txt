@@ -1,0 +1,5 @@
+=== CHANGELOG 20180606 ===
+- Added YuDoze Support
+- Added Ambient Display
+- Add Suport for Always on Display
+- ofc. source changes :)

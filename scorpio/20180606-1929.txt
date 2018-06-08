@@ -1,0 +1,12 @@
+***
+* WARNING: Firmware Upgrade required!
+* 8.5.24 ready-to-use: https://www.androidfilehost.com/?fid=890278863836290037
+* Install before the new build.
+***
+
+* Updated proprietary blobs
+* Switched to Mimi Mix hex-edited camera libraries to fix Google Camera and other apps
+* Updated and cleaned up GPS configs
+* Improved WiFi Power Savings
+* Fixed some issues with audio effects
+* Some minor kernel updates (not yet oreo-based)

@@ -1,0 +1,55 @@
+
+===========================
+AospExtended v5.6 Changelog
+===========================
+
+
+   - Merge June security patch (8.1.0_r30)
+   - Update all packages
+   - Update all translations
+   - Add Fingerprint blockage for pocket lock
+   - Add support for more FLAC rates
+   - Add fingerprint gesture support (Device Specific)
+   - Add edge gesture support
+   - Add and improve DU clock style
+   - Add more styles for clock
+   - Add DU font engine
+   - Add more fonts
+   - Add support for HSR and HFR rates
+   - Add more accents
+   - Fix accent theming on Extended UI
+   - Allow to use Jelly instead of Via as the default browser (Maintainer’s choice)
+   - Allow to use GCam as default camera app (Maintainer’s choice)
+   - Add back stock animation speed
+   - Fix swiping away of locked tasks
+   - Fix center clock not showing in QS header
+   - Add support for webview theming
+   - Add option to disable wallpaper tint
+   - Add back notification counter
+   - Fix screenrecorder notification actions
+   - Add option to hide edit icon from QS footer
+   - Add new default wallpaper
+   - Add grid or android go style recents
+   - Add statusbar NFC icon with toggle (Device Specific)
+   - Improve face unlocking
+   - Improve SmartPixels
+   - Fix all possible NPEs
+   - Under the hood improvements
+   - UI/UX improvements
+   - Performance improvement and bug fixes
+   
+===========================
+Kuntao specific changes :-
+===========================
+   - Kernel upstream to 3.18.112
+   - Doze is added back
+   - Switch to Snapdragon Camera
+   - Move to 2.1 fingerprint HAL wrapper
+   - Fixed FP Gestures
+   - Fixed NFC for proper switching OFF & ON
+   - Device model is now set Lenovo P2a42
+   - Fixed 5GHz Hotspot band
+   - Fixed Bluetooth showing wrong battery stats
+   - Added WireGuard VPN support
+   - Added TextClassififer(in short, it is an API used for smart selection and smart text share features)
+   - Enabled Factory Reset Protection(FRP)
