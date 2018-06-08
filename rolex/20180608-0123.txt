@@ -1,0 +1,7 @@
+===== rolex: AEX Oreo v5.5 =====
+
+Changelog: 
+
+-Fixed: VoLTE
+-Fixed: Sound in Riva (Partially)
+-Merged: June Security Patch 
