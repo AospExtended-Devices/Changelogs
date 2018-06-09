@@ -1,6 +1,0 @@
-===== rolex: AEX Oreo v5.6 =====
-
-Changelog:
-
-Merged: New Version of AospExtended (v5.6)
-Changes in https://blog.aospextended.com/AospExtended-v5.6-Changelog/
