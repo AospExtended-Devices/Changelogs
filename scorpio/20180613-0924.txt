@@ -1,0 +1,3 @@
+* Updated to AEX v5.6 sources
+* Improved Speaker Sound Quality
+* As usual, check github for more details.
