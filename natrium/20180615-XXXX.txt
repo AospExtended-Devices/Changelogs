@@ -38,5 +38,6 @@ Device specific:
 
 - More work around thermal
 - Improved WiFi Power Savings
-- Fixed some issues with audio
+- Fixed issues with audio
 - Removed sound control from Kernel (it wasn't working properly and might had some relation with audio issues)
+- Used Clang 7.0 to build kernel
