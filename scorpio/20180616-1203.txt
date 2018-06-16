@@ -1,0 +1,3 @@
+* Enabled radio power savings
+* Removed KCAL
+* Updated Kernel Sources to Official Oreo
