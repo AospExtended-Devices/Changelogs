@@ -1,0 +1,88 @@
+Please Clean Flash!!
+====================
+     06-16-2018
+====================
+
+   * device/oneplus/dumpling/
+96b6fc9  Fix headset issue  [APOPHIS9283]
+   * frameworks/base/
+731ef4c  Fix stock recents after omniswitch addition  [apophis9283]
+f8cc955  Revert "[1/2] base: featureize ro.recents.grid and Go Layout"  [apophis9283]
+1372ba9  Ensure Recents FAB respects RTL  [apophis9283]
+e5a56fd  OmniSwitch: make it work without stock navbar (i.e. DUI)  [apophis9283]
+d1a766ec  [1/3] base: OmniSwitch integration bits  [apophis9283]
+298db57  Unlock keystore with fingerprint after reboot (1/2)  [apophis9283]
+   * kernel/oneplus/msm8998/
+efdaba1  Bump to V-1.0.14 Mainly for ROMs  [APOPHIS9283]
+   * packages/apps/DUI/
+cb9cea3  DUI: fix button custom image icon not being loaded on encrypted device  [apophis9283]
+   * packages/apps/Extensions/
+1375252  Revert "[2/2] Extensions: featureize ro.recents.grid and Go Layout"  [apophis9283]
+139221f  Modify app to include OmniSwitch toggle this is taken from: https://github.com/LiquidRemix/android_packages_apps_LiquidLounge/commit/df7368bb5f594b17b40a61f051f6245c5b83e91e and should really be re-worked to use the existing list preference rather than having a list preference then also having a switch below it.  [apophis9283]
+c7990e8  Unlock keystore with fingerprint after reboot (2/2)  [apophis9283]
+   * packages/apps/Settings/
+e77006b  Allow Font Manager to work with Substratum Available  [apophis9283]
+
+====================
+     06-15-2018
+====================
+
+   * device/oneplus/msm8998-common/
+c66ebb9  Pulled these from googles taimen tree. Seem to work very well here *did a few small edits to it from stock source  [APOPHIS9283]
+   * kernel/oneplus/msm8998/
+cf53667  Edit some of the boosting values  [APOPHIS9283]
+   * vendor/aosp/
+e46ec2c  vendor: build omniswitch package  [APOPHIS9283]
+
+====================
+     06-14-2018
+====================
+
+   * device/oneplus/dumpling/
+e5cdd46  dumpling: Update blobs from OB9  [APOPHIS9283]
+b71b4a8  Try and set PRODUCT_DENSITY  [APOPHIS9283]
+7392070  dumpling: commonize config.fs  [APOPHIS9283]
+   * device/oneplus/msm8998-common/
+375b4ac  msm8998: fix wifi tethering interface  [APOPHIS9283]
+d1e5c56  msm8998: disable ant radio hal build  [APOPHIS9283]
+919679a  Fix dashd denial  [APOPHIS9283]
+3f3ada0  It bothers me so  [APOPHIS9283]
+fc1e75c  msm8998: Remove debug flags from kernel command line  [APOPHIS9283]
+3ecbb30  Remove this.  [APOPHIS9283]
+5e7173f  Lets play with GPS, what do we have to lose? Take 2 Unless something breaks  [APOPHIS9283]
+aabf9b7  msm8998: commonize config.fs  [APOPHIS9283]
+   * kernel/oneplus/msm8998/
+a165704  Merge branch 'unified' of https://github.com/Singularity-Kernel/Singularity into unified  [APOPHIS9283]
+571797e  UPSTREAM: sched/fair: Consider RT/IRQ pressure in capacity_spare_wake  [APOPHIS9283]
+558da83  UPSTREAM: dm bufio: avoid sleeping while holding the dm_bufio lock  [APOPHIS9283]
+d372504  1.0.13  [wrongway213]
+65a0f6d  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into HEAD  [wrongway213]
+561f540  Merge 4.4.137 into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+ed90fd0  Linux 4.4.137  [Greg Kroah-Hartman]
+7ab4c1a  net: metrics: add proper netlink validation  [Greg Kroah-Hartman]
+e9e0370  net: phy: broadcom: Fix bcm_write_exp()  [Greg Kroah-Hartman]
+d80cbf9  rtnetlink: validate attributes in do_setlink()  [Greg Kroah-Hartman]
+d3078b9  team: use netdev_features_t instead of u32  [Greg Kroah-Hartman]
+d22856e  net/mlx4: Fix irq-unsafe spinlock usage  [Greg Kroah-Hartman]
+4119db1  qed: Fix mask for physical address in ILT entry  [Greg Kroah-Hartman]
+7666b70  packet: fix reserve calculation  [Greg Kroah-Hartman]
+163258f  net: usb: cdc_mbim: add flag FLAG_SEND_ZLP  [Greg Kroah-Hartman]
+2f59e1e8  net/packet: refine check for priv area size  [Greg Kroah-Hartman]
+55a2ed3  netdev-FAQ: clarify DaveM's position for stable backports  [Greg Kroah-Hartman]
+4c5ea1d  isdn: eicon: fix a missing-check bug  [Greg Kroah-Hartman]
+b3c9189  ipv4: remove warning in ip_recv_error  [Greg Kroah-Hartman]
+53075e7  ip6mr: only set ip6mr_table from setsockopt when ip6mr_new_table succeeds  [Greg Kroah-Hartman]
+489f1f0  enic: set DMA mask to 47 bit  [Greg Kroah-Hartman]
+44f4aec0  dccp: don't free ccid2_hc_tx_sock struct in dccp_disconnect()  [Greg Kroah-Hartman]
+d6494ac  bnx2x: use the right constant  [Greg Kroah-Hartman]
+a1b993e  brcmfmac: Fix check for ISO3166 code  [Greg Kroah-Hartman]
+12958d0  drm: set FMODE_UNSIGNED_OFFSET for drm files  [Greg Kroah-Hartman]
+66824bdf  xfs: fix incorrect log_flushed on fsync  [Greg Kroah-Hartman]
+3165890  kconfig: Avoid format overflow warning from GCC 8.1  [Greg Kroah-Hartman]
+6ea1dc9  mmap: relax file size limit for regular files  [Greg Kroah-Hartman]
+bd2f9ce  mmap: introduce sane default mmap limits  [Greg Kroah-Hartman]
+459e0c3  tpm: self test failure should not cause suspend to fail  [Greg Kroah-Hartman]
+c7d5818  tpm: do not suspend/resume if power stays on  [Greg Kroah-Hartman]
+   * vendor/oneplus/
+c541784  msm8998: Update Some blobs from 5T OB9  [APOPHIS9283]
+07ce00f  Git rid of OP3 and cheeseburger  [APOPHIS9283]
