@@ -1,0 +1,155 @@
+====================
+     06-18-2018
+====================
+
+   * device/oneplus/msm8998-common/
+3f7c0b1  msm8998: Use Google full APN list  [drpradsms]
+ade33f1  MSM8998-COMMON: Include ARCore  [drpradsms]
+32321da  msm8996: allow reading FRP status for user should fix java.io.FileNotFoundException: /dev/block/bootdevice/by-name/config (Permission denied)  [drpradsms]
+1b00bd8  msm8998: Enable exFAT support  [drpradsms]
+f5305a8  GPS acts retarded if you push the files to vendor. Move to system to fix  [drpradsms]
+b2c3f5a  gps: update from op5 tree, fix long lock  [drpradsms]
+36f19c0  msm8998-common: Remove license.lic  [drpradsms]
+67684e3  msm8998: Added syscall to media extractor policy  [drpradsms]
+4e983df  Fix dashd denial  [drpradsms]
+7ff17eb  msm8998: releasetools: make modem check more user friendly  [drpradsms]
+c4ddd24  op5: enable agps  [drpradsms]
+   * device/oppo/common/
+36e8ff9  Alert slider: Fix changing from "vibrate" to "all notifications" in some scenarios  [drpradsms]
+e207b08  Disable Priority/Zen mode when switching to Vibrate/Ring  [drpradsms]
+   * vendor/oneplus/
+b0e1599  msm8998: prebuilt google camera modules  [drpradsms]
+bd6ff96  remove  [drpradsms]
+
+====================
+     06-17-2018
+====================
+
+   * kernel/oneplus/msm8998/
+59ebe4f  Bump to 1.0.15  [APOPHIS9283]
+4a8f877  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into HEAD  [APOPHIS9283]
+e388b37  Merge 4.4.138 into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+d9657b7  fs/exec: fix use after free in execve  [APOPHIS9283]
+dc357d4  ASoC: msm: q6dspv2: vote for Glink Rx thread priority upgrade  [APOPHIS9283]
+f2f125c  Merge branch 'kernel.lnx.4.4.r27-rel' of https://github.com/android-linux-stable/msm-4.4 into unified  [APOPHIS9283]
+
+====================
+     06-16-2018
+====================
+
+   * kernel/oneplus/msm8998/
+0bd2bed  Linux 4.4.138  [Greg Kroah-Hartman]
+5635242  crypto: vmx - Remove overly verbose printk from AES init routines  [Greg Kroah-Hartman]
+47d1aa2  Input: elan_i2c - add ELAN0612 (Lenovo v330 14IKB) ACPI ID  [Greg Kroah-Hartman]
+646dbf0  Input: goodix - add new ACPI id for GPD Win 2 touch screen  [Greg Kroah-Hartman]
+25bdf08  kvm: x86: use correct privilege level for sgdt/sidt/fxsave/fxrstor access  [Greg Kroah-Hartman]
+b13b60e  vmw_balloon: fixing double free when batching mode is off  [Greg Kroah-Hartman]
+6ffaa6e  serial: samsung: fix maxburst parameter for DMA transactions  [Greg Kroah-Hartman]
+3269081  KVM: x86: pass kvm_vcpu to kvm_read_guest_virt and kvm_write_guest_virt_system  [Greg Kroah-Hartman]
+8417244  KVM: x86: introduce linear_{read,write}_system  [Greg Kroah-Hartman]
+09b20d9  Clarify (and fix) MAX_LFS_FILESIZE macros  [Greg Kroah-Hartman]
+c4f78b5  gpio: No NULL owner  [Greg Kroah-Hartman]
+81613cc  x86/crypto, x86/fpu: Remove X86_FEATURE_EAGER_FPU #ifdef from the crc32c code  [Greg Kroah-Hartman]
+702b477  af_key: Always verify length of provided sadb_key  [Greg Kroah-Hartman]
+85191ed  x86/fpu: Fix math emulation in eager fpu mode  [Greg Kroah-Hartman]
+a2dd284  x86/fpu: Fix FNSAVE usage in eagerfpu mode  [Greg Kroah-Hartman]
+7c3adb3  x86/fpu: Hard-disable lazy FPU mode  [Greg Kroah-Hartman]
+8edb1d7  x86/fpu: Fix eager-FPU handling on legacy FPU machines  [Greg Kroah-Hartman]
+93deddf  x86/fpu: Revert ("x86/fpu: Disable AVX when eagerfpu is off")  [Greg Kroah-Hartman]
+0e005aa  x86/fpu: Fix 'no387' regression  [Greg Kroah-Hartman]
+1d9af7d  x86/fpu: Default eagerfpu=on on all CPUs  [Greg Kroah-Hartman]
+747fd4e  x86/fpu: Disable AVX when eagerfpu is off  [Greg Kroah-Hartman]
+63b20af  x86/fpu: Disable MPX when eagerfpu is off  [Greg Kroah-Hartman]
+082efbb  x86/cpufeature: Remove unused and seldomly used cpu_has_xx macros  [Greg Kroah-Hartman]
+3de8b83  x86: Remove unused function cpu_has_ht_siblings()  [Greg Kroah-Hartman]
+d1e6f6d  x86/fpu: Fix early FPU command-line parsing  [Greg Kroah-Hartman]
+efdaba1  Bump to V-1.0.14 Mainly for ROMs  [APOPHIS9283]
+   * vendor/oneplus/
+35c7a90  op3: Use O-MR1 based display and media blobs  [Alex]
+7777db9  op3: Update to KPTI patched time blobs  [Alex]
+cf6e474  op3: Update blobs from OB35/OB26  [Alex]
+6d544d8  op3: Kang wcnss filter from taimen OPM1.171019.021  [Alex]
+217b8ec  op3: Fix a typo  [Alex]
+c99e107  op3: Allow qcrilmsgtunnel to access android.hidl.manager  [Alex]
+3fbbf88  op3: Remove unused blobs  [Alex]
+5606417  op3: Update blobs from OB32/OB23  [Alex]
+b95912b  op3: Add missing OMX blobs  [Alex]
+43bcaeb  op3: Update blobs from OB32/OB22  [Alex]
+288df50  MSM8998: Update blobs to OxygenOS 5.1.2  [Alex]
+d5ddabf  MSM8998: Update blobs to OxygenOS 5.1.1  [Alex]
+ef7f189  MSM8998: Update blobs to OxygenOS 5.1.0  [Alex]
+58894f7  MSM8998: Update blobs to OxygenOS 5.0.4  [Alex]
+143683f  msm8998-common: Add Widevine L1 support  [Alex]
+5ca6506  msm8998: Use OP AptX and LDAC blobs  [Alex]
+133ab55  msm8998: add privapp perms for com.qualcomm.location  [Alex]
+934d794  msm8998: add missing vstab configs  [Alex]
+3d8fd67  OP5/MSM8998: Update blobs to OnePlus Oxygen OS 5.0.2/5.0.3  [Alex]
+51d9ec3  MSM8998: Update blobs from OnePlus Open Beta 5 and 3  [Alex]
+d98b9b6  MSM8998: Update blobs from OnePlus Open Beta 4 and 2  [Alex]
+a97be12  Workaround is to use 4MP binned mode  [Alex]
+9ba1a29  Use qti telephony from Tissot (Xiaomi Mi A1)  [Alex]
+20100ee  Add missed librcc.so for the OP3/T  [Alex]
+1e5f832  OP3: Update blobs to OnePlus Open Beta 21  [Alex]
+49ec703  Google Camera HDR+ restore for OnePlus 5  [Alex]
+157b330  msm8998: fix wifi calling  [Alex]
+cf92c6a  Organize vendor a little  [Alex]
+64a637d  OP5T: update blobs from OOS 5.0 Beta 1  [Alex]
+058f478  OP5/Common: Update blobs to Oxygen OS 5.0.1  [Alex]
+422406a  OP5: Update blobs to OnePlus Oxygen OS 5.0  [Alex]
+
+====================
+     06-15-2018
+====================
+
+   * device/oneplus/msm8998-common/
+35feaac  msm8998: update prebuilt google camera  [drpradsms]
+e71b27c  msm8998-common: Update CarrierConfig overlay from upstream  [drpradsms]
+d6c37db  Set TARGET_USES_MEDIA_EXTENSIONS to false  [drpradsms]
+7697206  Separate audio_platform_info to device.  [drpradsms]
+6863822  msm8998: default input boost frequency  [drpradsms]
+a093600  Add wifi-mac-generator and selinux policies  [drpradsms]
+eb77966  msm8998: Disable zram  [drpradsms]
+   * kernel/oneplus/msm8998/
+cf53667  Edit some of the boosting values  [APOPHIS9283]
+
+====================
+     06-14-2018
+====================
+
+   * kernel/oneplus/msm8998/
+9c533ef  Merge tag 'LA.UM.6.2.r1-08900-sdm660.0' into kernel.lnx.4.4.r27-rel  [Nathan Chancellor]
+a165704  Merge branch 'unified' of https://github.com/Singularity-Kernel/Singularity into unified  [APOPHIS9283]
+571797e  UPSTREAM: sched/fair: Consider RT/IRQ pressure in capacity_spare_wake  [APOPHIS9283]
+558da83  UPSTREAM: dm bufio: avoid sleeping while holding the dm_bufio lock  [APOPHIS9283]
+d372504  1.0.13  [wrongway213]
+65a0f6d  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into HEAD  [wrongway213]
+561f540  Merge 4.4.137 into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+3624091  Merge 4.4.137 into kernel.lnx.4.4.r27-rel  [Nathan Chancellor]
+ed90fd0  Linux 4.4.137  [Greg Kroah-Hartman]
+7ab4c1a  net: metrics: add proper netlink validation  [Greg Kroah-Hartman]
+e9e0370  net: phy: broadcom: Fix bcm_write_exp()  [Greg Kroah-Hartman]
+d80cbf9  rtnetlink: validate attributes in do_setlink()  [Greg Kroah-Hartman]
+d3078b9  team: use netdev_features_t instead of u32  [Greg Kroah-Hartman]
+d22856e  net/mlx4: Fix irq-unsafe spinlock usage  [Greg Kroah-Hartman]
+4119db1  qed: Fix mask for physical address in ILT entry  [Greg Kroah-Hartman]
+7666b70  packet: fix reserve calculation  [Greg Kroah-Hartman]
+163258f  net: usb: cdc_mbim: add flag FLAG_SEND_ZLP  [Greg Kroah-Hartman]
+2f59e1e8  net/packet: refine check for priv area size  [Greg Kroah-Hartman]
+55a2ed3  netdev-FAQ: clarify DaveM's position for stable backports  [Greg Kroah-Hartman]
+4c5ea1d  isdn: eicon: fix a missing-check bug  [Greg Kroah-Hartman]
+b3c9189  ipv4: remove warning in ip_recv_error  [Greg Kroah-Hartman]
+53075e7  ip6mr: only set ip6mr_table from setsockopt when ip6mr_new_table succeeds  [Greg Kroah-Hartman]
+489f1f0  enic: set DMA mask to 47 bit  [Greg Kroah-Hartman]
+44f4aec0  dccp: don't free ccid2_hc_tx_sock struct in dccp_disconnect()  [Greg Kroah-Hartman]
+d6494ac  bnx2x: use the right constant  [Greg Kroah-Hartman]
+a1b993e  brcmfmac: Fix check for ISO3166 code  [Greg Kroah-Hartman]
+12958d0  drm: set FMODE_UNSIGNED_OFFSET for drm files  [Greg Kroah-Hartman]
+66824bdf  xfs: fix incorrect log_flushed on fsync  [Greg Kroah-Hartman]
+3165890  kconfig: Avoid format overflow warning from GCC 8.1  [Greg Kroah-Hartman]
+6ea1dc9  mmap: relax file size limit for regular files  [Greg Kroah-Hartman]
+bd2f9ce  mmap: introduce sane default mmap limits  [Greg Kroah-Hartman]
+459e0c3  tpm: self test failure should not cause suspend to fail  [Greg Kroah-Hartman]
+c7d5818  tpm: do not suspend/resume if power stays on  [Greg Kroah-Hartman]
+   * packages/apps/Nfc/
+45d2faf  NFC: Clean duplicated and unknown permissions  [ShevT]
+
