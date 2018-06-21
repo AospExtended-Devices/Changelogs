@@ -1,0 +1,136 @@
+====================
+     06-10-2018
+====================
+
+   * device/oneplus/oneplus2/
+d93e6d1  op2: fix netmgrd groups  [Shreyansh Lodha]
+308a1db  init : oneplus2.power.sh : minor changes  [Shreyansh Lodha]
+e171936  ramdisk : don't restore scaling_max_freq for a57  [Shreyansh Lodha]
+
+====================
+     06-09-2018
+====================
+
+
+====================
+     06-08-2018
+====================
+
+   * frameworks/base/
+9654a24dc20  Edit Icon Toggle [1/2]  [hamza-badar]
+c63bac55700  Update clock style vectors  [Shubham Singh]
+   * kernel/oneplus/msm8994/
+d039d3486fb  op2: Use monotonic boottime for vid recording  [Shreyansh Lodha]
+   * packages/apps/Extensions/
+9e10879d  5.6[1/2]  [Shubham Singh]
+e3dd1b2a  Edit Icon Toggle[2/2]  [hamza-badar]
+   * vendor/aosp/
+f13786a  5.6[2/2]  [Shubham Singh]
+f187d5a  Add new wall  [Shubham Singh]
+
+====================
+     06-07-2018
+====================
+
+   * build/make/
+c0648dce2  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/av/
+eb18bfd66  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/base/
+334b4127eeb  Automatic translation import  [Shubham Singh]
+182696a485e  Automatic translation import  [Shubham Singh]
+767b9604895  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+83a4b7101d3  LS: Add spidey clock style [1/2]  [Shubham Singh]
+349bdd97c84  Merge changes I6167ae33,I771641ee,Ic5360f29,I501e8a4d,If79caaf4, ... into 8.1.x  [Gerrit Code Review]
+ebab2a24f64  SystemUI: modify overscroll bug in NotificationStackScrollLayout  [Shubham Singh]
+8f6fe1e6785  SystemUI: Rotation button can't work at first time after rotate screen  [Shubham Singh]
+c4806ea1e84  Add permission whitelist for EmergencyInfo app  [Shubham Singh]
+a8857e4cb61  Decrease time changing between TOP & another state  [Shubham Singh]
+e3884647833  ConnectivityService doesn't send decreased score to factories at need  [Shubham Singh]
+73b86154a7d  wifidisplay: Modify WifiDisplayController  [Shubham Singh]
+681d0166d6b  wifidisplay: Use ExtendedRemoteDisplay to launch Wifi Display.  [Shubham Singh]
+36da2c91b9a  media: Parse Exif OffsetTime in MediaScanner  [Shubham Singh]
+9c8acd3bb79  Skype voice can't transfer to carkit after re-connection  [Shubham Singh]
+38322cf725b  Merge changes Ibd14ff14,Ie7b25d7b,Ic735a735,I9b59550d,Ic516a477, ... into 8.1.x  [Gerrit Code Review]
+fd4bd3d8de3  Rework thumbnail cleanup  [Shubham Singh]
+bbf87f46c57  Revert "Check VintfObject compatibility on boot"  [AmolAmrit]
+4d46ce9ebbf  screenrecord: add support for 18:9 resolutions  [AmolAmrit]
+45c3105b9f3  pm: Fix typo in error  [AmolAmrit]
+5950d809cb2  BatteryStats: Update WifiState even if EnergyInfo is invalid  [AmolAmrit]
+fcd2629b28f  Themes: expose tooltip text colors  [AmolAmrit]
+   * frameworks/native/
+62c07a413  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+026dd283f  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+a6b45131  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * manifest/
+607113f  Track more repos for translation  [Shubham Singh]
+5d07fbe  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+3bfe288  Track clang from aex  [Shubham Singh]
+   * packages/apps/Extensions/
+fcba2143  Automatic translation import  [Shubham Singh]
+b8ec8ad2  Automatic translation import  [Shubham Singh]
+15748bf7  LS: Add spidey clock style [2/2]  [Shubham Singh]
+   * packages/apps/FMRadio/
+db8cf94  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+8d0e2b534  Automatic translation import  [Shubham Singh]
+ae70d7058  Move custom strings to seperate file  [Shubham Singh]
+   * packages/apps/Messaging/
+39e1572  Automatic translation import  [Shubham Singh]
+b6578d7  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+12bdb69a  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+ac876e888d  Automatic translation import  [Shubham Singh]
+fc170e7536  Automatic translation import  [Shubham Singh]
+6504a3f484  Update search index  [Shubham Singh]
+2ecd2a3829  Move custom dp settings under Display  [Shubham Singh]
+   * packages/apps/Snap/
+73e304ce0  Snap: MY EYES ARE BLEEDING  [Shubham Singh]
+aee25529a  Snap: remove unused shutter buttons  [Shubham Singh]
+1036a61aa  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+a92c07b  Automatic translation import  [Shubham Singh]
+   * packages/providers/MediaProvider/
+adcea2d  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+7649dd49  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * prebuilts/clang/host/linux-x86/
+5c8b6d2  Update prebuilt Clang to r328903.  [Shubham Singh]
+   * system/bt/
+d1156f51  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * system/core/
+ae3b5eae8  Merge tag 'android-8.1.0_r30' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+b5de3bd  Vendor:Add some more fonts  [Shubham Singh]
+
+====================
+     06-06-2018
+====================
+
+   * frameworks/av/
+d0a0c4e28  AudioPolicyEffects: fix OOB read in input source array  [AmolAmrit]
+   * frameworks/base/
+64a0743c8da  Fix Screenrecord share/delete buttons not working  [Shubham Singh]
+a67571dc0da  SystemUI: fix header image sides padding  [Shubham Singh]
+933022b9e2e  base: SystemUI: fix tinting of lock screen weather images  [Shubham Singh]
+bc88362c737  Status bar: Update notification count icons  [Shubham Singh]
+114fa51471c  Show infinity for large notification counts  [Shubham Singh]
+bc27e8cda35  SystemUI: small optimization for notification icon numbers  [Shubham Singh]
+04fba8c7817  systemui: Forward-port notification counters  [Shubham Singh]
+4a4800bba03  Revert "Show infinity for large notification counts"  [Shubham Singh]
+95d5c3716f6  Add a slight tint to the power menu when wallpaper tint is off  [Shubham Singh]
+9e9f85bccf3  Lockscreen clocks: add default size option for Date view [1/2]  [Shubham Singh]
+45d86fa3369  Work smarter not harder  [Shubham Singh]
+df549df0c76  Merge "base: SystemUI: Show clock on right in QS panel if center clock is set" into 8.1.x  [Gerrit Code Review]
+ec793a94f77  [1/2] base: featureize ro.recents.grid and Go Layout  [drpradsms]
+f38e6165161  base: SystemUI: Show clock on right in QS panel if center clock is set  [AmolAmrit]
+   * packages/apps/Extensions/
+e3d48a40  Extensions: Add a footer warning for LS weather  [Shubham Singh]
+2787cb58  Forward-port notification counters  [Shubham Singh]
+8a1304cf  Lockscreen clocks: add default size option for Date view [2/2]  [Shubham Singh]
+   * packages/apps/Settings/
+94d8f5d371  settings: wifi: Default to numeric keyboard for static IP items  [AmolAmrit]
+

@@ -1,0 +1,54 @@
+====================
+     06-04-2018
+====================
+
+
+====================
+     06-03-2018
+====================
+
+   * device/motorola/msm8916-common/
+b063e51  msm8916-common: add gps from LA.UM.6.5.r1-05300-8x96.0 tag  [althafvly]
+
+====================
+     06-02-2018
+====================
+
+   * frameworks/base/
+e851ab4a500  Fix potential NPE and handle disabled packages properly  [Shubham Singh]
+85717d9e2a7  Add progress for font apply [1/2]  [Shubham Singh]
+7e92b5944e8  Dynamic font fix for FDE devices  [Shubham Singh]
+0a6a0f3ffa3  Fonts: Update keyguard when font changes  [Shubham Singh]
+feb90739294  Introduce FontService  [Shubham Singh]
+d2e33819f40  lockscreen : differentiate hour from minutes in digital bold style clock  [Shubham Singh]
+ebc1978b842  lockscreen : reduce clock, date and owner info's text size only if small digital clock is selected  [Shubham Singh]
+f1113546204  lockscreen : Add small size style [1/2]  [Shubham Singh]
+753774243ee  lockscreen : Align sammy style to center  [Shubham Singh]
+735be79f2be  Base: Add some more accents [3/3]  [Shubham Singh]
+
+====================
+     06-01-2018
+====================
+
+   * device/motorola/msm8916-common/
+e501da9  msm8916-common: Force battery led on  [althafvly]
+5af3e9c  msm8916-common: Fix dalvik and hwui props for msm8939  [althafvly]
+   * frameworks/base/
+93180a4d5c6  Add NPE handling to the Edge Gesture Manager  [arghyac35]
+
+====================
+     05-31-2018
+====================
+
+   * device/motorola/msm8916-common/
+e59e155  Update GPS configs from OPP27.61-14-4  [althafvly]
+8b7050b  Use Prebuilt GPS blobs  [althafvly]
+   * frameworks/base/
+864c101be90  Add ability to use EdgeGestureService for system gestures  [arghyac35]
+69e53c47d21  Add EdgeGesture service  [arghyac35]
+8fff4802c7a  Add edge gesture (1/2)  [arghyac35]
+9e872e7f728  Remove the 0 from the 12 hour format from the 'Digital (bold)' option  [Shubham Singh]
+81248749de3  Allow for the 'Big Clock' analog padding to be changed per device  [Shubham Singh]
+fa0c8147183  Lockscreen clock styles: update alarm status also if ambient is off  [Shubham Singh]
+baecfc7a849  Ambient music ticker: add Always On Ambient compatibility  [Shubham Singh]
+

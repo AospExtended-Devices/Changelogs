@@ -1,0 +1,12 @@
+===== rolex: AEX Oreo v5.6 =====
+
+Changelog:
+
+Upstreamed: Kernel to 3.18.112
+Increased: Optimizations of Kernel
+Removed: Increase zRAM size (Unnecessary)
+Fixed: Google Camera Libs
+Fixed: Slow Charging in Lockscreen
+Fixed: ScreenRecording
+Fixed: Offline Charging
+Fixed: Battery Stats

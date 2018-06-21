@@ -1,0 +1,8 @@
+AospExtended-V5.6 Changelog (2018/06/20) 
+
+Changelog :
+1. Selinux Status - Enforcing
+2. Revert Smart pixel overlay - No use on LCD panels
+3. Use of Sony's thermal manager (thermanager) replacing it with stock thermal-engine 
+4. GPS improvement's
+5. Other minor bug fixes (if any :P)
