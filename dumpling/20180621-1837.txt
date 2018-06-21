@@ -1,0 +1,88 @@
+Clean flash and use 5.1.3 firmware!!!!
+
+====================
+     06-21-2018
+====================
+
+   * frameworks/base/
+5fe1e92  Fix stock recents after omniswitch addition  [apophis9283]
+5dfc3b4  Ensure Recents FAB respects RTL  [apophis9283]
+9a6913e  OmniSwitch: make it work without stock navbar (i.e. DUI)  [apophis9283]
+9d626a4  [1/3] base: OmniSwitch integration bits  [apophis9283]
+   * hardware/qcom/audio-caf/msm8916/
+8747be1  Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/display-caf/msm8916/
+e7f8039  Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8916/
+55e0ac7  Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916  [Michael Bestas]
+   * kernel/oneplus/msm8998/
+9e68504  ANDROID: sdcardfs: fix potential crash when reserved_mb is not zero  [APOPHIS9283]
+   * packages/apps/Extensions/
+bd1960c  Unlock keystore with fingerprint after reboot (2/2)  [apophis9283]
+2553020  Revert "[2/2] Extensions: featureize ro.recents.grid and Go Layout"  [apophis9283]
+c379118  Modify app to include OmniSwitch toggle this is taken from: https://github.com/LiquidRemix/android_packages_apps_LiquidLounge/commit/df7368bb5f594b17b40a61f051f6245c5b83e91e and should really be re-worked to use the existing list preference rather than having a list preference then also having a switch below it.  [apophis9283]
+   * packages/apps/Settings/
+7d2faa8  Allow Font Manager to work with Substratum Available  [apophis9283]
+   * vendor/oneplus/
+f43641e  MSM8998: Update blobs to OxygenOS 5.1.3  [APOPHIS9283]
+
+====================
+     06-20-2018
+====================
+
+   * device/oneplus/msm8998-common/
+8fd7202  op5/t: update gps configs  [APOPHIS9283]
+7075ea3  op5: izat use oreo diag group  [APOPHIS9283]
+f1c8d43  op5: enable agps  [APOPHIS9283]
+fb9e9e9  op5: update gps stack configs  [APOPHIS9283]
+0f1c524  Reset GPS  [APOPHIS9283]
+d8e4ee0  msm8998: init: Add IFAA daemon for Alipay fingerprint support  [APOPHIS9283]
+284a5ce  msm8998: Add sepolicy for Alipay fingerprint support  [APOPHIS9283]
+25c2af9  msm8998-common: add IFAA for Alipay fingerprint support  [APOPHIS9283]
+d1102d8  Custom doze: use ExecutorService to handle sensor listener  [APOPHIS9283]
+7ba8d9b  Move this to system and set board platform  [APOPHIS9283]
+b1dafd4  Remove unused stuff  [APOPHIS9283]
+4271678  Fix some SELinux denials Change-Id: Ide72c7143c0e04715ca5404cd7f8e02333ac999b  [APOPHIS9283]
+9b6db6c  A few fixes/GPS adjustments  [APOPHIS9283]
+d9fd2b4  MSM8998-COMMON: Include ARCore  [APOPHIS9283]
+bce2ca7  msm8996: allow reading FRP status for user should fix java.io.FileNotFoundException: /dev/block/bootdevice/by-name/config (Permission denied)  [APOPHIS9283]
+7a4db0f  msm8998: Enable exFAT support  [APOPHIS9283]
+11c7db2  msm8998-common: Remove license.lic  [APOPHIS9283]
+8f70c18  msm8998: Added syscall to media extractor policy  [APOPHIS9283]
+c5f2440  msm8998: fix wifi tethering interface  [APOPHIS9283]
+fb04a6a  msm8998: disable ant radio hal build  [APOPHIS9283]
+   * device/oppo/common/
+e491658  slider: remove hwkey swap toggle from slidersettings  [APOPHIS9283]
+f11868b  Fix slider issue  [APOPHIS9283]
+   * vendor/oneplus/
+ca0a1c0  Update Libs from Arnova  [APOPHIS9283]
+
+====================
+     06-19-2018
+====================
+   * frameworks/base/
+b678311  Merge "base: Add special captive portal servers for chinese" into 8.1.x  [Gerrit Code Review]
+3266cc2  [2/3] NetworkManagement : Add ability to restrict app data/wifi usage  [Shubham Singh]
+   * hardware/qcom/fm/
+4a8b046  Automatic translation import  [Michael Bestas]
+   * packages/apps/Settings/
+6c0efd6  Merge "About us: Update" into 8.1.x  [Gerrit Code Review]
+97b348b  Merge "[1/3] Settings: per-app cellular data and wifi restrictions" into 8.1.x  [Gerrit Code Review]
+683ddbd  [1/3] Settings: per-app cellular data and wifi restrictions  [Shubham Singh]
+
+====================
+     06-18-2018
+====================
+
+   * device/oneplus/dumpling/
+1d12942  dumpling: Add custom power HAL  [APOPHIS9283]
+   * kernel/oneplus/msm8998/
+dafc2f3  Bring FP boost back to what it was  [APOPHIS9283]
+   * packages/apps/Settings/
+83a541c  About us: Update  [Shubham Singh]
+   * vendor/aosp/
+a8d0cce  Update prebuilt Turbo apk from latest Marlin May img  [APOPHIS9283]
+a8eb6ba  apns-conf: Remove obsolete APNs for PT carriers  [APOPHIS9283]
+57d9e43  add ARCore and ARStickers  [APOPHIS9283]
+ac0b4c2  add file  [APOPHIS9283]
+
