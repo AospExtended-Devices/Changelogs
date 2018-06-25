@@ -20,6 +20,6 @@ The file name must be in this format: yyyyMMdd-Hm.txt
 - [Extended Devices](https://github.com/AospExtended-devices/) 
 - [Markdown editor ](http://dillinger.io/) 
 - [Markdown cheatsheet ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-- [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/index.html/) 
+- [Gerrit Manual for AospExtended OS](http://gerrit.aospextended.com/Documentation/intro-user.html) 
 - [AospExtended Gallery](https://aospextended.imgur.com/) 
 - [Facebook page!](https://www.facebook.com/aospextended/) 
