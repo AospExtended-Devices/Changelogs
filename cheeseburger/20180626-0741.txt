@@ -1,0 +1,92 @@
+====================
+     06-26-2018
+====================
+
+   * device/oneplus/msm8998-common/
+cff7884  Support Camera hal1 for Whatsapp  [drpradsms]
+f68770f  Tune auto-brightness values  [drpradsms]
+   * vendor/oneplus/
+03b40a6  Modded Gcam modules by Arnova8G2  [drpradsms]
+ca46a6a  MSM8998: Update blobs to OxygenOS 5.1.3  [drpradsms]
+
+====================
+     06-25-2018
+====================
+
+   * device/oneplus/msm8998-common/
+158970e  Update Gcam to Arnova8G2-v8  [drpradsms]
+af56fdf  msm8998-common: Fix typo in QTI whitelist too  [drpradsms]
+bbe69d6  msm8998: init: Add IFAA daemon for Alipay fingerprint support  [drpradsms]
+05237c4  msm8998: Add sepolicy for Alipay fingerprint support  [drpradsms]
+4cec528  msm8998-common: add IFAA for Alipay fingerprint support  [drpradsms]
+e5f6beb  msm8998: overlay: Light up the display  [drpradsms]
+7bb7b08  msm8998: Tune auto-brightness values  [drpradsms]
+283ac50  msm8998: Fix some SELinux denials  [drpradsms]
+d841fca  msm8998: sepolicy: allow netlink_kobject_uevent_socket read  [drpradsms]
+378c7d4  msm8998: sepolicy: allow init self:netlink_kobject_uevent_socket  [drpradsms]
+c38e55f  msm8998: sepolicy: allow qemu_hw_mainkeys_prop  [drpradsms]
+2fce867  msm8998: sepolicy: allow substratum overlay manager to find overlays  [drpradsms]
+5191c57  msm8998: update our system props  [drpradsms]
+6f679bc  This shall fix weird noises on 3rd party app calls  [drpradsms]
+4ef7d04  msm8996: allow reading FRP status for user should fix java.io.FileNotFoundException: /dev/block/bootdevice/by-name/config (Permission denied)  [drpradsms]
+4f613c9  msm8998: Enable exFAT support  [drpradsms]
+b1b4588  msm8998-common: Remove license.lic  [drpradsms]
+57c7d8d  msm8998: Added syscall to media extractor policy  [drpradsms]
+8665263  Fix dashd denial  [drpradsms]
+be33406  msm8998: releasetools: make modem check more user friendly  [drpradsms]
+   * kernel/oneplus/msm8998/
+c0afef5  Revert "Disable this by default. Causes issues with some people on OP5"  [APOPHIS9283]
+f47bb42  smb: enable otg on smb init  [APOPHIS9283]
+e05d55a  arm64: lib: rewrite and optimize memcmp  [APOPHIS9283]
+529c582  Dont build blu_active, darkness, zzmoove  [APOPHIS9283]
+
+====================
+     06-24-2018
+====================
+
+
+====================
+     06-23-2018
+====================
+
+
+====================
+     06-22-2018
+====================
+
+   * frameworks/base/
+10183ef  SystemUI: Support display for radio tech  [drpradsms]
+d7903bd  Chocolate UI [2/4]  [drpradsms]
+   * hardware/qcom/audio-caf/msm8916/
+8747be1  Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/audio-caf/msm8974/
+e43a121  visualizer: Build with BOARD_VNDK_VERSION  [Michael Bestas]
+3c29a7e  voice_processing: Build with BOARD_VNDK_VERSION  [Michael Bestas]
+9ee58e7  post_proc: Build with BOARD_VNDK_VERSION  [Michael Bestas]
+ded474f  mm-audio: Build with BOARD_VNDK_VERSION  [Michael Bestas]
+4325e02  hal: Build with BOARD_VNDK_VERSION  [Michael Bestas]
+   * hardware/qcom/display-caf/msm8916/
+e7f8039  Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8916/
+55e0ac7  Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8974/
+7d2d0cb  Build libstagefrighthw with BOARD_VNDK_VERSION  [Michael Bestas]
+   * kernel/oneplus/msm8998/
+f82562f  1.0.16  [APOPHIS9283]
+496219b  ARM: dts: msm8998: Remove redundant CPU bandwidth devfreq devices  [APOPHIS9283]
+50da209  input: fpc1020: Mark IRQ as performance critical  [APOPHIS9283]
+219da6f  msm: mdss: Mark IRQ and important kthreads as performance critical  [APOPHIS9283]
+9e892b1  msm: kgsl: Mark IRQ and worker thread as performance critical  [APOPHIS9283]
+e17e912  kernel: Force trivial, unbound kthreads onto low-power CPUs  [APOPHIS9283]
+452d813  kernel: Add API to mark IRQs and kthreads as performance critical  [APOPHIS9283]
+93dccf9  Revert "kernel: Ensure perf-critical CPU bindings are retained after suspend"  [APOPHIS9283]
+8b30513  Revert "kernel: Restrict unbound kthreads to little CPU cluster"  [APOPHIS9283]
+13310dd  BACKPORT: tcp: do not overshoot window_clamp in tcp_rcv_space_adjust()  [APOPHIS9283]
+   * packages/apps/Settings/
+d51d000  Allow Font Manager to work with Substratum Available  [drpradsms]
+ca2a51c  Chocolate UI [3/4]  [drpradsms]
+   * vendor/aosp/
+d1d51bd  Chocolate UI [1/4]  [drpradsms]
+   * vendor/oneplus/
+76ed698  bacon: Remove unused camera firmware  [Michael Bestas]
+
