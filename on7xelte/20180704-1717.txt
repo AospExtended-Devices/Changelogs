@@ -1,0 +1,6 @@
+AospExtended 5.6 Changelog!
+
+* Improve audio
+* Fix screen recording
+
+All merged LineageOS fixes.
