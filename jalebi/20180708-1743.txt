@@ -1,5 +1,7 @@
 ===Changelog===
 
+NONGO VARIENT 
+
 ----Device----
 -jalebi: Remove bt config address from execution 
 -jalebi: Fix extract-files.sh
