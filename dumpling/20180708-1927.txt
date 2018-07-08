@@ -1,0 +1,218 @@
+====================
+     07-08-2018
+====================
+
+   * frameworks/av/
+11ac68a  audioflinger: do not idle thread if active tracks exist  [AmolAmrit]
+a014e7a  audio: ensure effect chain with specific session id is unique  [AmolAmrit]
+3b96d11  av: Support AAC LATM decoding in DSP.  [AmolAmrit]
+   * frameworks/base/
+b75b4cf6  Automatic translation import  [AmolAmrit]
+dbf2524  [Squash] Remove WiFi display changes  [AmolAmrit]
+   * frameworks/opt/telephony/
+04e9aa4  Merge "Add ContentObserver when sms sent limit changed" into 8.1.x  [Gerrit Code Review]
+   * kernel/oneplus/msm8998/
+15b9673  Bump to 1.0.18  [APOPHIS9283]
+8a0ed1c  BACKPORT: treewide: Use array_size() in vzalloc_node()  [APOPHIS9283]
+6cd23a0  BACKPORT: treewide: Use array_size() in vzalloc()  [APOPHIS9283]
+e29dcb1  BACKPORT: treewide: Use array_size() in vmalloc()  [APOPHIS9283]
+f65aabf  BACKPORT: treewide: devm_kzalloc() -> devm_kcalloc()  [APOPHIS9283]
+bb68287  BACKPORT: treewide: devm_kmalloc() -> devm_kmalloc_array()  [APOPHIS9283]
+2b4ebce  BACKPORT: treewide: kzalloc_node() -> kcalloc_node()  [APOPHIS9283]
+d058b25  BACKPORT: treewide: kzalloc() -> kcalloc()  [APOPHIS9283]
+e924945  BACKPORT: treewide: kmalloc() -> kmalloc_array()  [APOPHIS9283]
+492d018  BACKPORT: treewide: Use struct_size() for devm_kmalloc() and friends  [APOPHIS9283]
+134d680  BACKPORT: treewide: Use struct_size() for vmalloc()-family  [APOPHIS9283]
+2646603  BACKPORT: treewide: Use struct_size() for kmalloc()-family  [APOPHIS9283]
+e4d8c9c  UPSTREAM: mm: Introduce kvcalloc()  [APOPHIS9283]
+e885ac1  UPSTREAM: Convert v4l2 event to struct_size  [APOPHIS9283]
+d6f335f  UPSTREAM: Convert virtio_console to struct_size  [APOPHIS9283]
+c22f265  UPSTREAM: device: Use overflow helpers for devm_kmalloc()  [APOPHIS9283]
+9c53436  BACKPORT: mm: Use overflow helpers in kvmalloc()  [APOPHIS9283]
+aec2cc1  UPSTREAM: mm: Use overflow helpers in kmalloc_array*()  [APOPHIS9283]
+f32fbe3  UPSTREAM: mm: faster kmalloc_array(), kcalloc()  [APOPHIS9283]
+e24e1bcb  UPSTREAM: include/linux/slab.h: add kmalloc_array_node() and kcalloc_node()  [APOPHIS9283]
+82ee96a  UPSTREAM: overflow.h: Add allocation size calculation helpers  [APOPHIS9283]
+8618f05  UPSTREAM: compiler.h: enable builtin overflow checkers and add fallback code  [APOPHIS9283]
+c92488f  Merge tag 'LA.UM.6.2.r1-09300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into oc-mr2  [APOPHIS9283]
+   * packages/apps/Extensions/
+beee0ee  yay 5.7 [2/2]  [AmolAmrit]
+ccf5b14  Automatic translation import  [AmolAmrit]
+   * packages/apps/FMRadio/
+b6b8f05  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+f860ff2  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+601aa24  Automatic translation import  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+19d76cf  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+d932494  Automatic translation import  [Shubham Singh]
+   * packages/apps/Updates/
+b5ce262  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+0eb188c  Automatic translation import  [Shubham Singh]
+   * vendor/aosp/
+7159670  yay 5.7 [1/2]  [APOPHIS9283]
+6e75091  Add Iliad APN  [APOPHIS9283]
+14e01b0  apns: Add missing sprint roaming APN and set bearer_bitmasks  [APOPHIS9283]
+d76e6da  bfqio: Fix warning when building with BOARD_VNDK_VERSION := current  [APOPHIS9283]
+cf142b9  apns: Adjust Sprint LTE internet to allow tether  [APOPHIS9283]
+7ae15f7  backuptool: introduce addon.d script versioning  [APOPHIS9283]
+0c94e6e  vendor: add custom backuptools and postinstall script for A/B OTAs  [APOPHIS9283]
+2d76298  aosp: qcom: Set thermal & vr HAL pathmaps  [APOPHIS9283]
+dd2028f  repopick: Update SSH queries result to match HTTP queries  [APOPHIS9283]
+231771d  aosp: qcom: Enable TARGET_USES_COLOR_METADATA for msm8937 & msm8953  [APOPHIS9283]
+1b1a427  apns: Add UPC Mobile  [APOPHIS9283]
+013f312  verity: Implement verity tool  [APOPHIS9283]
+979fc0b   Remove FFmpeg plugin remnants  [APOPHIS9283]
+344861e  apn: Fix typo in Rogers roaming protocol  [APOPHIS9283]
+32e3f3f  apns: Adjust MetroPCS apn to allow USB tether  [APOPHIS9283]
+ecd3ba2  prebuilts: Fix Telfort apn  [APOPHIS9283]
+4015ec9  apns: updated entries for Koodo  [APOPHIS9283]
+35acc25  apn: Update APNs for MetroPCS  [APOPHIS9283]
+e157c9e  apn: Add protocol for fido and rogers  [APOPHIS9283]
+3673835  Pissel-ify the ExactCalculator  [APOPHIS9283]
+21a9739  Disable white/black accents [3/3]  [APOPHIS9283]
+c0a6549  Support Theming for some inbuilt apps [1/2]  [APOPHIS9283]
+
+====================
+     07-07-2018
+====================
+
+   * build/make/
+906487f  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * device/aosp/sepolicy/
+a864022  sepolicy: add rules for updater and update_engine  [Shubham Singh]
+d2b3e8b  common: add update_engine policies  [Shubham Singh]
+   * device/qcom/sepolicy/
+5a1c0d7  Merge https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [Shubham Singh]
+   * frameworks/av/
+85b6515  audioflinger: Throttle output if no active tracks  [AmolAmrit]
+5530559  audio: don't apply ramp if track is paused before the first mix  [AmolAmrit]
+8edeeac  AudioFlinger: Fix deadlock when createEffect_l fails.  [AmolAmrit]
+3769430  Don't use cutils/Atomic.h  [AmolAmrit]
+c668b1a  Fix integer overflow sanitizer in FastThread.cpp.  [AmolAmrit]
+6c93261  Merge "AudioFlinger: improve purgeStaleEffects_l thread-safety"  [AmolAmrit]
+7a9f2f1  Fix sanitizer in AudioFlinger threadLoop.  [AmolAmrit]
+b916c47  Fix audioflinger in integer sanitized builds.  [AmolAmrit]
+f934f4c  Fix integer sanitizer in FastMixerDumpState.  [AmolAmrit]
+d694fc1  Fix audioflinger in overflow sanitized builds.  [AmolAmrit]
+aeaa5a8  Fix sanitizer in audioflinger Threads.cpp.  [AmolAmrit]
+21348db  audio effects: handle error case deadlock  [AmolAmrit]
+779d263  Revert "services: audioflinger: Threads: increase max tracks per uid" *Can be a guess work. We are increasing it too much. Les keep it stock AOSP for now. Can be the reason why AudioFlinger is crashing and is not able to create more tracks. *We also decreased it in Nougat https://github.com/AospExtended/platform_frameworks_av/commit/12a11d56d33f246f99edf7565f875a49dfb76e83#diff-d01105ed2c00e4d8907b4aa204730ec6  [AmolAmrit]
+99e9e5d  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * frameworks/base/
+ff938d1  Themes: fix vpn status dialog  [AmolAmrit]
+3697c4c  Revert "Improve power menu advanced toggle icon"  [Shubham Singh]
+51bed83  Disable white/black accents [1/3]  [Shubham Singh]
+206dceb  Support Theming for some inbuilt apps [2/2] Themes- Dialer, Contacts, Filemanager  [drpradsms]
+93077d1  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * frameworks/native/
+29c0f81  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+47a9eca  Add ContentObserver when sms sent limit changed  [AmolAmrit]
+e434c71  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+bee791c  dont use reset method to fix build  [Shubham Singh]
+ded815b  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * kernel/oneplus/msm8998/
+2ad91c2  Merge tag 'LA.UM.6.2.r1-09300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into oc-mr2  [APOPHIS9283]
+d538497  Merge tag 'LA.UM.6.2.r1-09300-sdm660.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into oc-mr2  [APOPHIS9283]
+87d0d1e  Drop support for OOS, however.... code will be kept in treble branch for it  [APOPHIS9283]
+   * manifest/
+b82f7c3  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * packages/apps/Bluetooth/
+192ccd0  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * packages/apps/Extensions/
+1cf07b3  Extensions: Move few options to proper sections  [Shubham Singh]
+1567ff5  Disable white/black accents [2/3]  [Shubham Singh]
+9b99d5b  Fix FC  [Shubham Singh]
+   * packages/apps/Launcher3/
+222f48e  Use dark theme for chocolateUI too  [Shubham Singh]
+   * packages/apps/Snap/
+94a2099  SnapdragonCamera: CancelTouchFocus when exit camera.  [AmolAmrit]
+c496103  Snap: turn developer category title into a translatable string  [AmolAmrit]
+a41ee1b  Automatic translation import  [AmolAmrit]
+8203170  SnapdragonCamera: Panorama, replace border drawable  [AmolAmrit]
+   * packages/providers/MediaProvider/
+3cb1fac  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+aecb62f  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/bt/
+47fbe3a  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/libhidl/
+27dd677  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/media/
+9487934  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/sepolicy/
+576fe9c  sepolicy: allow update_engine to bypass neverallows for backuptool  [Shubham Singh]
+
+====================
+     07-06-2018
+====================
+
+   * device/aosp/sepolicy/
+71485c7  Make fuseblk use vfat context  [Shubham Singh]
+f875852  Revert "sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble"  [Shubham Singh]
+b6c214d  sepolicy: Label aw2013 HIDL light HAL  [Shubham Singh]
+   * device/oneplus/msm8998-common/
+9437099  Until this actually links to something, pointless  [APOPHIS9283]
+34cd506  Screen timeout default to 30 seconds  [APOPHIS9283]
+d7bd3f3  oneplus-msm8998: Drop deprecated OpenGLRenderer props  [APOPHIS9283]
+   * device/oppo/common/
+2301963  Rewrite DeviceHandler's Slider Actions  [Joe Schubert]
+   * frameworks/base/
+566a788  Location: Skip processing when reciever pointer is null  [apophis9283]
+9f404d7  fix synchronization bug when notification enqueue/cancel  [apophis9283]
+77cabf2  core: ChooserActivity: fix android crash from null object  [apophis9283]
+9fe480d  Remove unused calling for better performance  [apophis9283]
+f4691bd  core: Fix long overflow issue in NetworkStats  [apophis9283]
+d81723b  MtpDatabase: Fix potential NULL dereference errors  [apophis9283]
+c7040a9  Fix problems caused by multithreading in VibratorService  [apophis9283]
+4b2d4f6  Speed up the speed of computer MTP query  [apophis9283]
+526808d  Return null if a provider died before acquisition  [apophis9283]
+57d4f62  ScanRecord.getServiceData NPE fix  [apophis9283]
+52c02cc  Check for null path in getInternalPathForUser  [apophis9283]
+8bbddf1  Screenrecord: Improvements for notification  [apophis9283]
+0394915  ViewConfiguration: Restore defaults  [AmolAmrit]
+   * hardware/qcom/display-caf/msm8998/
+9fa8467  gralloc: Add missing BT601_6_625 handing  [Michael Bestas]
+20bd3e8  gralloc1: Add support for secure display.  [Michael Bestas]
+6c718aa  liblight: Use char array instead of char pointer array for file name  [Michael Bestas]
+   * packages/apps/Settings/
+76026c3  Fix memory leak in Bluetooth settings  [apophis9283]
+000242e  Settings: FC when rotate in Wifi AP detail page  [apophis9283]
+e208b8e  Avoid NullPointerException when updating preference intents  [apophis9283]
+9a73fe1  Keep access point list updated once in short time.  [apophis9283]
+e269e94  Setting:BugFix for OOM caused by looper leak in settings  [apophis9283]
+96a8351  Fix memory leak of DataSaverPreference  [apophis9283]
+8edadd4  InstalledAppDetails: Avoid crash caused by ActivityNotFoundException  [apophis9283]
+aecad82  Fix can't enter bluetooth device preference under settings  [apophis9283]
+36334cf  Settings: Fix Always-on VPN sync problem  [apophis9283]
+ac3d84b  APN: always let user decide what he wants to do  [apophis9283]
+91020ee  settings: bt: Fix NPE with switch state  [apophis9283]
+ee2e7e7  Fix NPE in AutoSyncWorkDataPreferenceController  [apophis9283]
+c6d7e93  settings: update switch state only if there is change  [apophis9283]
+
+====================
+     07-05-2018
+====================
+
+   * kernel/oneplus/msm8998/
+1163592  sched/tune: Track active boosts on a per-Schedtune basis  [APOPHIS9283]
+d105776  sched/tune: Reset Dynamic Schedtune Boost only if no more boosts running  [APOPHIS9283]
+336529b  cpu-boost: Reset Dynamic SchedTune Boost only if it is currently active  [APOPHIS9283]
+85041d3  sched/boost: Perform SchedTune boosting when sched_boost is triggered  [APOPHIS9283]
+5382583  sched/tune: Introduce stune_boost() function  [APOPHIS9283]
+47c4110  sched/tune: Refactor do_stune_boost()  [APOPHIS9283]
+747755c  sched/tune: Create dynamic_boost SchedTune parameter  [APOPHIS9283]
+9281902  sched/tune: Rename dynamic_boost_write() to dynamic_boost()  [APOPHIS9283]
+
+====================
+     07-04-2018
+====================
+
+   * vendor/aosp/
+e3a3a09  Update Boot Animation from Moelle. This is not to be altered/changed in anyway without his expressed permission  [APOPHIS9283]
+
