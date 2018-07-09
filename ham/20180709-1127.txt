@@ -1,0 +1,10 @@
+AospExtended V-5.7 Changelog 
+Build Date : 09/07/2018
+Build Time : 11:27 AM UTC
+
+Changelog :
+• July security patches merged 
+• Device tree rebased on upcoming LineageOS 15.1 UNOFFICIAL
+• Reverted back to thermal-engine.
+• Fixed In-Call volume issue faced by many users.
+• Minor bug fixes :P
