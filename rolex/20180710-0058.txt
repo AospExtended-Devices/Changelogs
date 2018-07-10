@@ -1,0 +1,20 @@
+===== rolex: AEX Oreo v5.7 =====
+
+Changelog:
+
+Fixed: Distortion in Sound (Riva)
+
+* Is necessary for instalation the zip fix, install this zip after install the Update *
+* Only for RIVA (Redmi 5A) users *
+* Link of Fix: https://androidfilehost.com/?fid=5862345805528044745 *
+* Reboot to TWRP > Install > Select the zip > Flash > Reboot *
+* Remember to install this fix after installing the ROM update, after installing the ROM and Gapps *
+* Credits to all community Redmi 4A/5A in Telegram... Thanks to all <3 *
+
+Merged: New Version of AospExtended (v5.7)
+Changes in https://blog.aospextended.com/AospExtended-v5.7-Changelog/
+Merged: July Security Patch
+Reverted: Upstreamed v3.18.112 (Readded default kernel)
+Adjustmented: Use power_profile by default (Redmi 5A)
+Fixed: Min_fps hack (Camera Dark fix)
+Renamed: Lights HAL (Fix LED in all devices)
