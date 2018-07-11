@@ -1,0 +1,201 @@
+====================
+     07-10-2018
+====================
+
+   * device/motorola/merlin/
+e555140  Use persist.radio.aosp_usr_pref_sel  [hritik]
+   * device/motorola/msm8916-common/
+da0f917  msm8916-common: start bootanim before mounting data partition  [hritik]
+55c0371  msm8916-common: Tune zram performance  [hritik]
+4f4911a  msm8916-common: Enable zram on boot_complete  [hritik]
+3d36f17  Revert "init.qcom.rc: enable zram on boot_complete"  [hritik]
+0615e79  msm8916-common: Enable pm.sleep_mode  [hritik]
+10c7975   msm8916-common: Move audio_effects.xml to system  [hritik]
+   * hardware/qcom/fm/
+8bfd71d  Automatic translation import  [Michael Bestas]
+   * kernel/motorola/msm8916/
+b109e56  drivers:cpufreq:qcom-cpufreq: Initialise all ints  [hritik]
+
+====================
+     07-09-2018
+====================
+
+   * device/motorola/msm8916-common/
+74f0f07  removed AID_QCOM_DIAG  [GitHub]
+   * frameworks/base/
+b75b4cf6  Automatic translation import  [AmolAmrit]
+dbf2524  [Squash] Remove WiFi display changes  [AmolAmrit]
+   * packages/apps/Extensions/
+beee0ee  yay 5.7 [2/2]  [AmolAmrit]
+ccf5b14  Automatic translation import  [AmolAmrit]
+   * packages/apps/FMRadio/
+b6b8f05  Automatic translation import  [Shubham Singh]
+   * packages/apps/Launcher3/
+f860ff2  Automatic translation import  [Shubham Singh]
+   * packages/apps/Messaging/
+601aa24  Automatic translation import  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+19d76cf  Automatic translation import  [Shubham Singh]
+   * packages/apps/Settings/
+d932494  Automatic translation import  [Shubham Singh]
+   * packages/apps/Updates/
+b5ce262  Automatic translation import  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+0eb188c  Automatic translation import  [Shubham Singh]
+   * vendor/aosp/
+aa0b9e0  yay 5.7 [1/2]  [AmolAmrit]
+4ab8b03  Update gcam prebuilt  [AmolAmrit]
+089dc7a  Vendor: Prop: Disable HDCP check *Hopefully fixes our miracast issue  [AmolAmrit]
+
+====================
+     07-08-2018
+====================
+
+   * device/aosp/sepolicy/
+a864022  sepolicy: add rules for updater and update_engine  [Shubham Singh]
+d2b3e8b  common: add update_engine policies  [Shubham Singh]
+   * frameworks/av/
+11ac68a  audioflinger: do not idle thread if active tracks exist  [AmolAmrit]
+a014e7a  audio: ensure effect chain with specific session id is unique  [AmolAmrit]
+3b96d11  av: Support AAC LATM decoding in DSP.  [AmolAmrit]
+85b6515  audioflinger: Throttle output if no active tracks  [AmolAmrit]
+5530559  audio: don't apply ramp if track is paused before the first mix  [AmolAmrit]
+8edeeac  AudioFlinger: Fix deadlock when createEffect_l fails.  [AmolAmrit]
+3769430  Don't use cutils/Atomic.h  [AmolAmrit]
+c668b1a  Fix integer overflow sanitizer in FastThread.cpp.  [AmolAmrit]
+6c93261  Merge "AudioFlinger: improve purgeStaleEffects_l thread-safety"  [AmolAmrit]
+7a9f2f1  Fix sanitizer in AudioFlinger threadLoop.  [AmolAmrit]
+b916c47  Fix audioflinger in integer sanitized builds.  [AmolAmrit]
+f934f4c  Fix integer sanitizer in FastMixerDumpState.  [AmolAmrit]
+d694fc1  Fix audioflinger in overflow sanitized builds.  [AmolAmrit]
+aeaa5a8  Fix sanitizer in audioflinger Threads.cpp.  [AmolAmrit]
+21348db  audio effects: handle error case deadlock  [AmolAmrit]
+779d263  Revert "services: audioflinger: Threads: increase max tracks per uid" *Can be a guess work. We are increasing it too much. Les keep it stock AOSP for now. Can be the reason why AudioFlinger is crashing and is not able to create more tracks. *We also decreased it in Nougat https://github.com/AospExtended/platform_frameworks_av/commit/12a11d56d33f246f99edf7565f875a49dfb76e83#diff-d01105ed2c00e4d8907b4aa204730ec6  [AmolAmrit]
+   * frameworks/base/
+ff938d1  Themes: fix vpn status dialog  [AmolAmrit]
+3697c4c  Revert "Improve power menu advanced toggle icon"  [Shubham Singh]
+   * frameworks/opt/telephony/
+04e9aa4  Merge "Add ContentObserver when sms sent limit changed" into 8.1.x  [Gerrit Code Review]
+47a9eca  Add ContentObserver when sms sent limit changed  [AmolAmrit]
+   * hardware/qcom/power/
+2d1ce22  power-845: Fix compilation errors  [Bruno Martins]
+9e76194  Fix interaction boost higher cpu freq perflock  [Bruno Martins]
+b06e15f  power: Adding hints for SDM845  [Bruno Martins]
+   * packages/apps/Extensions/
+1cf07b3  Extensions: Move few options to proper sections  [Shubham Singh]
+   * packages/apps/Snap/
+94a2099  SnapdragonCamera: CancelTouchFocus when exit camera.  [AmolAmrit]
+c496103  Snap: turn developer category title into a translatable string  [AmolAmrit]
+a41ee1b  Automatic translation import  [AmolAmrit]
+8203170  SnapdragonCamera: Panorama, replace border drawable  [AmolAmrit]
+   * system/sepolicy/
+576fe9c  sepolicy: allow update_engine to bypass neverallows for backuptool  [Shubham Singh]
+   * vendor/aosp/
+37d4165  Add Iliad APN  [Shubham Singh]
+3fe2730  apns: Add missing sprint roaming APN and set bearer_bitmasks  [Shubham Singh]
+2a1e2b3  bfqio: Fix warning when building with BOARD_VNDK_VERSION := current  [Shubham Singh]
+ad110b6  apns: Adjust Sprint LTE internet to allow tether  [Shubham Singh]
+6f1f1f1  backuptool: introduce addon.d script versioning  [Shubham Singh]
+96e4833  vendor: add custom backuptools and postinstall script for A/B OTAs  [Shubham Singh]
+704741f  apns-conf: Remove obsolete APNs for PT carriers  [Shubham Singh]
+16d6e10  aosp: qcom: Set thermal & vr HAL pathmaps  [Shubham Singh]
+e0fa81c  repopick: Update SSH queries result to match HTTP queries  [Shubham Singh]
+3bb94ac  aosp: qcom: Enable TARGET_USES_COLOR_METADATA for msm8937 & msm8953  [Shubham Singh]
+c3f2729  apns: Add UPC Mobile  [Shubham Singh]
+97bd4fc  verity: Implement verity tool  [Shubham Singh]
+0af0f4c   Remove FFmpeg plugin remnants  [Shubham Singh]
+f04599a  apn: Fix typo in Rogers roaming protocol  [Shubham Singh]
+0ae50c2  apns: Adjust MetroPCS apn to allow USB tether  [Shubham Singh]
+72254a4  prebuilts: Fix Telfort apn  [Shubham Singh]
+1fb2c39  apns: updated entries for Koodo  [Shubham Singh]
+46fddf8  apn: Update APNs for MetroPCS  [Shubham Singh]
+b2cf2b1  apn: Add protocol for fido and rogers  [Shubham Singh]
+841eb7e  Pissel-ify the ExactCalculator  [Shubham Singh]
+83914c3  Disable white/black accents [3/3]  [Shubham Singh]
+33773de  Support Theming for some inbuilt apps [1/2]  [drpradsms]
+
+====================
+     07-07-2018
+====================
+
+   * build/make/
+906487f  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * device/qcom/sepolicy/
+5a1c0d7  Merge https://github.com/LineageOS/android_device_qcom_sepolicy into HEAD  [Shubham Singh]
+   * frameworks/av/
+99e9e5d  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * frameworks/base/
+51bed83  Disable white/black accents [1/3]  [Shubham Singh]
+206dceb  Support Theming for some inbuilt apps [2/2] Themes- Dialer, Contacts, Filemanager  [drpradsms]
+93077d1  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+566a788  Location: Skip processing when reciever pointer is null  [apophis9283]
+9f404d7  fix synchronization bug when notification enqueue/cancel  [apophis9283]
+77cabf2  core: ChooserActivity: fix android crash from null object  [apophis9283]
+9fe480d  Remove unused calling for better performance  [apophis9283]
+f4691bd  core: Fix long overflow issue in NetworkStats  [apophis9283]
+d81723b  MtpDatabase: Fix potential NULL dereference errors  [apophis9283]
+c7040a9  Fix problems caused by multithreading in VibratorService  [apophis9283]
+4b2d4f6  Speed up the speed of computer MTP query  [apophis9283]
+526808d  Return null if a provider died before acquisition  [apophis9283]
+57d4f62  ScanRecord.getServiceData NPE fix  [apophis9283]
+52c02cc  Check for null path in getInternalPathForUser  [apophis9283]
+8bbddf1  Screenrecord: Improvements for notification  [apophis9283]
+   * frameworks/native/
+29c0f81  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * frameworks/opt/telephony/
+e434c71  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+bee791c  dont use reset method to fix build  [Shubham Singh]
+ded815b  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * hardware/qcom/display-caf/msm8998/
+9fa8467  gralloc: Add missing BT601_6_625 handing  [Michael Bestas]
+20bd3e8  gralloc1: Add support for secure display.  [Michael Bestas]
+6c718aa  liblight: Use char array instead of char pointer array for file name  [Michael Bestas]
+   * manifest/
+b82f7c3  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * packages/apps/Bluetooth/
+192ccd0  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * packages/apps/Extensions/
+1567ff5  Disable white/black accents [2/3]  [Shubham Singh]
+9b99d5b  Fix FC  [Shubham Singh]
+   * packages/apps/Launcher3/
+222f48e  Use dark theme for chocolateUI too  [Shubham Singh]
+   * packages/providers/MediaProvider/
+3cb1fac  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+aecb62f  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/bt/
+47fbe3a  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/libhidl/
+27dd677  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * system/media/
+9487934  Merge tag 'android-8.1.0_r36' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+a41a96a  Update Boot Animation from Moelle.  [apophis9283]
+52dece7  MusicFX: Adaptive icon  [Shubham Singh]
+
+====================
+     07-06-2018
+====================
+
+   * device/aosp/sepolicy/
+71485c7  Make fuseblk use vfat context  [Shubham Singh]
+f875852  Revert "sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble"  [Shubham Singh]
+b6c214d  sepolicy: Label aw2013 HIDL light HAL  [Shubham Singh]
+   * frameworks/base/
+0394915  ViewConfiguration: Restore defaults  [AmolAmrit]
+   * packages/apps/Settings/
+76026c3  Fix memory leak in Bluetooth settings  [apophis9283]
+000242e  Settings: FC when rotate in Wifi AP detail page  [apophis9283]
+e208b8e  Avoid NullPointerException when updating preference intents  [apophis9283]
+9a73fe1  Keep access point list updated once in short time.  [apophis9283]
+e269e94  Setting:BugFix for OOM caused by looper leak in settings  [apophis9283]
+96a8351  Fix memory leak of DataSaverPreference  [apophis9283]
+8edadd4  InstalledAppDetails: Avoid crash caused by ActivityNotFoundException  [apophis9283]
+aecad82  Fix can't enter bluetooth device preference under settings  [apophis9283]
+36334cf  Settings: Fix Always-on VPN sync problem  [apophis9283]
+ac3d84b  APN: always let user decide what he wants to do  [apophis9283]
+91020ee  settings: bt: Fix NPE with switch state  [apophis9283]
+ee2e7e7  Fix NPE in AutoSyncWorkDataPreferenceController  [apophis9283]
+c6d7e93  settings: update switch state only if there is change  [apophis9283]
+
