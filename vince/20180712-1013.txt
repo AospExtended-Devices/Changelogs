@@ -1,0 +1,8 @@
+Yes finally official v5.7 :v
+===========================
+Vince AEX v5.7
+===========================
+- First AEX O Release
+- Pure O-MR1 Blob
+- MIUI 8.7.10 Kernel
+- Versioned VNDK Support
