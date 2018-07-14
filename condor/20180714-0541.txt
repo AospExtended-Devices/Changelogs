@@ -1,0 +1,9 @@
+- Merge July security patch (8.1.0_r36)
+- Update all packages
+- Update audioflinger
+- Add custom MusicFX package
+- Add per-app network restrictions feature
+- Add ripple effect to power menu items
+- Add support to allow system theme/font options alongside substratum
+- Add chocolate UI
+- Add dark UI overlays for AOSP Dialer, Contacts and Files app
