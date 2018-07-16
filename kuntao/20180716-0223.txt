@@ -1,0 +1,8 @@
+Quick Update:-
+=================
+Kuntao Specific Changes:-
+=================
+-Upstreamed kernel to latest linux-stable(3.18.115)
+-Fixed issues with Light theme.
+
+Note: You can dirty flash this update.
