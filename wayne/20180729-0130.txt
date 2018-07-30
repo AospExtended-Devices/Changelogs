@@ -1,0 +1,2 @@
+*Selinux changed to enforcing
+*Remove WeChat fingerprint payment
