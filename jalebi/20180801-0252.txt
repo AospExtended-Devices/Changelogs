@@ -1,0 +1,10 @@
+Changelog 2018-08-01
+
+- jalebi: Disable power HAL stats
+- jalebi: overlay: Kang CarrierConfig overlay from op3
+- jalebi: Set Proper radio access family 
+- Add Network Type ( GSM ONLY, WCDMA ONLY, WCDA/GSM, LTE ONLY and so on... :P )
+- Merge cve changes (June/July)
+- Set min freq to 400Mhz
+- Tuned Perf for more smoothness
+- & Source Changes 
