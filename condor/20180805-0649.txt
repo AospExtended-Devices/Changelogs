@@ -1,0 +1,2 @@
+- Added SIM toggle
+- Various ROM side improvements and fixes
