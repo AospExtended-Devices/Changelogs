@@ -1,0 +1,4 @@
+> Added sim deactivating toggle
+> Added call recording option
+> Changed default launcher to latest Ruthless Pixel Launcher for now
+> updated source...
