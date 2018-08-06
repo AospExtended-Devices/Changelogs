@@ -1,0 +1,4 @@
+* Improved Doze Service
+* HIDL-ized ANT+ HAL
+* Switched to QTI Bluetooth Stack
+* Refer to Github for more details
