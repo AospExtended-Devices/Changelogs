@@ -1,0 +1,95 @@
+====================
+     08-08-2018
+====================
+
+[1m   * device/sony/common/[m
+0e1c213  Add qualcomm fm hal entry  [Craig Tatlor]
+1f24a2e  AEX-ify  [Craig Tatlor]
+140c4a7  Remove apn configs  [Craig Tatlor]
+b16c54e  Don't use sony aosp keys  [Craig Tatlor]
+04db551  overlay: Add doze overlays  [Craig Tatlor]
+89eaad8  treble: add the packages needed for BOARD_VNDK_VERSION  [Alin Jerpelea]
+[1m   * device/sony/nile/[m
+3d7f406  nile: add qualcomm fm packages  [Craig Tatlor]
+65de36a  AEX-ify  [Craig Tatlor]
+6260736  remove the duplicate androidboot.console  [Alin Jerpelea]
+f9e5a2f  Merge pull request #51 from opendata26/patch-1  [GitHub]
+[1m   * device/sony/pioneer/[m
+6a1e2e1  nile: add qualcomm fm packages  [Craig Tatlor]
+79778db  sony-pioneer: AEX-ify  [Craig Tatlor]
+[1m   * hardware/qcom/audio/default/[m
+215556f2  post_proc: Enable post processing for sdm660  [Craig Tatlor]
+e2e28911  hal: enable audio hal on sdm660  [Craig Tatlor]
+dfc92fe7  hal: msm8916: load config files from multiple locations  [Craig Tatlor]
+[1m   * hardware/qcom/bt/[m
+1ead7ca  bt: use TARGET_BOARD_AUTO to override qcom hals  [Craig Tatlor]
+[1m   * hardware/qcom/display/[m
+7d926c49e  msm8998: sdm: hwc2: Added property to disable skipping client color transform.  [Craig Tatlor]
+78a9b1cec  color_manager: Update display color api libname  [Craig Tatlor]
+6951d7f0f  msm8998: gralloc1: disable UBWC if video encoder client has no support  [Craig Tatlor]
+dba9bb101  hwc2: Do not treat color mode errors as fatal at init  [Craig Tatlor]
+81d414a59  sdm: core: Update the mixer, framebuffer and display properly  [Craig Tatlor]
+[1m   * hardware/qcom/gps/[m
+7a045b5  gps: use TARGET_BOARD_AUTO to override qcom hals  [Craig Tatlor]
+[1m   * hardware/sony/timekeep/[m
+e8c0f6c  fix build with BOARD_VNDK_VERSION  [Alin Jerpelea]
+[1m   * kernel/sony/msm-4.4/common-kernel/[m
+13cf4ec  update prebuilt kernel [6.4.r1] Linux 4.4.145  [Alin Jerpelea]
+[1m   * kernel/sony/msm-4.4/kernel/[m
+679d3af56  Merge pull request #1713 from nathanchance/stable-4.4  [GitHub]
+[1m   * system/core/[m
+1f765c17e8  healthd: charger: Add board overrides in mode_charger  [Craig Tatlor]
+60bce695cc  Revert "healthd: restructure healthd_mode_charger"  [Craig Tatlor]
+[1m   * vendor/opengapps/sources/arm/[m
+3f47a73  Google arm-16 8.14.15.16.arm (nodpi)  [Nicholas Buse]
+[1m   * vendor/opengapps/sources/arm64/[m
+50ff3f2  YouTube arm64-21 13.30.56 (240)  [Nicholas Buse]
+
+====================
+     08-07-2018
+====================
+
+[1m   * device/sony/common/[m
+ee7bbb9  librqbalance: fix build with BOARD_VNDK_VERSION  [Alin Jerpelea]
+88f07a3  power: fix build with BOARD_VNDK_VERSION  [Alin Jerpelea]
+f6cebdb  libpolyreg: Fix libcutils private headers  [Alin Jerpelea]
+[1m   * device/sony/nile/[m
+0ed46c4  Fix incorrect androidboot.console parameter  [GitHub]
+[1m   * vendor/nxp/NXPNFCC_FW/[m
+f69b65d  Update README.md  [GitHub]
+[1m   * vendor/opengapps/sources/all/[m
+a14288a  Google News all-19 5.3.0 (nodpi)  [Nicholas Buse]
+[1m   * vendor/qcom/opensource/camera/[m
+dc9af5d  CameraParameters: fix build with BOARD_VNDK_VERSION  [Alin Jerpelea]
+[1m   * vendor/qcom/opensource/location/[m
+73da525  fix build with BOARD_VNDK_VERSION  [Alin Jerpelea]
+
+====================
+     08-06-2018
+====================
+
+[1m   * device/sony/common/[m
+9dfe3df  move the camera dumps to /data/vendor/camera  [Alin Jerpelea]
+[1m   * device/sony/sepolicy/[m
+0cdb4b2  Merge pull request #392 from SonyAosp/8.1-4.9  [GitHub]
+[1m   * hardware/qcom/power/[m
+34c7410  power: Fix several typos in power profiles  [Michael Bestas]
+
+====================
+     08-05-2018
+====================
+
+[1m   * hardware/qcom/fm/[m
+26b8136  Automatic translation import  [Michael Bestas]
+
+====================
+     08-04-2018
+====================
+
+[1m   * frameworks/base/[m
+379f832f  Fix LockClock Font & Size resetting after reboot  [AmolAmrit]
+[1m   * frameworks/opt/telephony/[m
+938e06b  Merge "Proper supplementary service notification handling (2/5)." into 8.1.x  [Gerrit Code Review]
+[1m   * packages/apps/Dialer/[m
+595efd0  Re-add call statistics.  [AmolAmrit]
+
