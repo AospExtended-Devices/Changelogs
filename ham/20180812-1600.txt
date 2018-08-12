@@ -1,0 +1,6 @@
+AospExtended v5.8 Changelog - 20180812-1600
+
+- Fixed EQ
+- Added custom power hal
+- Coverted legacy light hal into native binderised service
+- Added sim deactivation/activation toggle in sim card menu (qti-telephony-common)
