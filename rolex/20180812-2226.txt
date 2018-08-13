@@ -1,0 +1,8 @@
+===== rolex: AEX Oreo v5.8 =====
+
+Changelog:
+
+Merged: New Version of AospExtended (v5.8)
+Changes in https://blog.aospextended.com/AospExtended-v5.8-Changelog/
+Merged: August Security Patch (8.1.0_r43)
+Merged: Tag 'LA.UM.6.6.r1-09400-89xx.0 from CAF (Kernel)
