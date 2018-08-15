@@ -1,0 +1,87 @@
+====================
+     08-15-2018
+====================
+
+
+====================
+     08-14-2018
+====================
+
+
+====================
+     08-13-2018
+====================
+
+
+====================
+     08-12-2018
+====================
+
+   * build/make/
+a4a10da  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * frameworks/av/
+11c6756  Fixed audioserver crash in monkey test  [AmolAmrit]
+8bc3aba  A2DP offload: switch to new properties + swap audio XML files  [AmolAmrit]
+2143e7e  audiopolicy: Add support for A2DP offload audio policy config  [AmolAmrit]
+46edaa3  The sonification sound is muted during a shutter sound  [AmolAmrit]
+7f459e6  Fix integer sanitizer in audiopolicyservice.  [AmolAmrit]
+8463588  Add USB MIC in case of AUDIO_SOURCE_CAMCORDER  [AmolAmrit]
+e2e5e4b  Fix a memory leak  [AmolAmrit]
+42bc7f5  Stagefright: fix integer overflow  [AmolAmrit]
+50fc9d4  NdkMediaCodec: add AMediaCodec_getBufferFormat  [AmolAmrit]
+ee101be  AudioFlinger: Fix deadlock upon create Effect fail  [AmolAmrit]
+082bc06  fix position go backward after resume  [AmolAmrit]
+95de3e2  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * frameworks/base/
+a8805c7  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+270209f  Remove accent tint from expand icon  [Shubham Singh]
+   * frameworks/opt/telephony/
+76f86ca  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * hardware/interfaces/
+7e8903a  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/apps/Bluetooth/
+d3ccd94  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/apps/Extensions/
+038851f  v5.8 bye bye oreo [2/2]  [Shubham Singh]
+   * packages/apps/Messaging/
+c30ccc2  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+2a38c1f  Revert "Messaging: Request external storage permission before handling shared files"  [Shubham Singh]
+   * packages/apps/PackageInstaller/
+9d5c304  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/apps/Settings/
+9185e56  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/providers/DownloadProvider/
+e7f6fc5  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/providers/MediaProvider/
+2d178d5  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/services/Telephony/
+7800419  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * system/bt/
+30dc23d  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * system/core/
+8eb6f05  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * system/libhidl/
+01f8995  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * system/media/
+ed75356  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * system/vold/
+1697d0a  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * vendor/aosp/
+c1424d7  v5.8 bye bye oreo [1/2]  [Shubham Singh]
+
+====================
+     08-11-2018
+====================
+
+   * frameworks/base/
+ddb5a2f  base: cleanup nav gestures code  [Shubham Singh]
+b755ddf  base: add long press home handling to nav gestures  [Shubham Singh]
+2c23cdd  base: implement OP like navigation gestures [1/2]  [Shubham Singh]
+38390d4  Revert Edge Gesture [2/2]  [Shubham Singh]
+   * manifest/
+292c628  Merge tag 'android-8.1.0_r43' into HEAD  [Shubham Singh]
+   * packages/apps/Extensions/
+554857e  Extensions: improve gestures/navbar switch  [Shubham Singh]
+a17d366  Extensions: implement OP like navigation gestures [2/2]  [Shubham Singh]
+d8c63bf  Revert Edge Gestures (1/2)  [Shubham Singh]
+
