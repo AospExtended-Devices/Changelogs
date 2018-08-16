@@ -1,0 +1,86 @@
+====================
+     08-16-2018
+====================
+
+   * device/oneplus/msm8998-common/
+0571c98  msm8998: audio: temp disable broken deep_buffer playback  [APOPHIS9283]
+   * frameworks/av/
+80cb352  Merge "OMXNodeInstance: Allow dynamic native handle for shared mem buffer" into 8.1.x  [Gerrit Code Review]
+   * frameworks/base/
+032edda  Fix the merge I screwed up  [sbcrumb]
+445985d  Fix stock recents after omniswitch addition  [sbcrumb]
+18141c7  Ensure Recents FAB respects RTL  [sbcrumb]
+8381b93  OmniSwitch: make it work without stock navbar (i.e. DUI)  [sbcrumb]
+8403f9b  [1/3] base: OmniSwitch integration bits  [sbcrumb]
+   * kernel/oneplus/msm8998/
+e1e04ac  1.0.27 EAS  [wrongway213]
+1aa7e38  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into eas  [wrongway213]
+   * packages/apps/Extensions/
+6f09e7c  Modify app to include OmniSwitch toggle this is taken from: https://github.com/LiquidRemix/android_packages_
+apps_LiquidLounge/commit/df7368bb5f594b17b40a61f051f6245c5b83e91e and should really be re-worked to use the existing 
+list preference rather than having a list preference then also having a switch below it.  [sbcrumb]
+   * vendor/aosp/
+40cf823  soong_config: Add TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE  [sbcrumb]
+
+====================
+     08-15-2018
+====================
+
+   * kernel/oneplus/msm8998/
+7aa7035  Merge 4.4.148 into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+30a97c1  Linux 4.4.148  [Greg Kroah-Hartman]
+8f2adf3  x86/speculation/l1tf: Unbreak !__HAVE_ARCH_PFN_MODIFY_ALLOWED architectures  [Greg Kroah-Hartman]
+4b90ff8  x86/init: fix build with CONFIG_SWAP=n  [Greg Kroah-Hartman]
+eb99321  x86/speculation/l1tf: Fix up CPU feature flags  [Greg Kroah-Hartman]
+6b06f36  x86/mm/kmmio: Make the tracer robust against L1TF  [Greg Kroah-Hartman]
+02ff276  x86/mm/pat: Make set_memory_np() L1TF safe  [Greg Kroah-Hartman]
+9feecdb  x86/speculation/l1tf: Make pmd/pud_mknotpresent() invert  [Greg Kroah-Hartman]
+0aae5fe  x86/speculation/l1tf: Invert all not present mappings  [Greg Kroah-Hartman]
+09049f0  x86/speculation/l1tf: Fix up pte->pfn conversion for PAE  [Greg Kroah-Hartman]
+b55b06b  x86/speculation/l1tf: Protect PAE swap entries against L1TF  [Greg Kroah-Hartman]
+dc48c1a  x86/cpufeatures: Add detection of L1D cache flush support.  [Greg Kroah-Hartman]
+df7fd6c  x86/speculation/l1tf: Extend 64bit swap file size limit  [Greg Kroah-Hartman]
+fa86c20  x86/bugs: Move the l1tf function and define pr_fmt properly  [Greg Kroah-Hartman]
+685b444  x86/speculation/l1tf: Limit swap file size to MAX_PA/2  [Greg Kroah-Hartman]
+d71af2d  x86/speculation/l1tf: Disallow non privileged high MMIO PROT_NONE mappings  [Greg Kroah-Hartman]
+9ac0dc7  mm: fix cache mode tracking in vm_insert_mixed()  [Greg Kroah-Hartman]
+0371d9c  mm: Add vm_insert_pfn_prot()  [Greg Kroah-Hartman]
+bf0cca0  x86/speculation/l1tf: Add sysfs reporting for l1tf  [Greg Kroah-Hartman]
+52dc5c9  x86/speculation/l1tf: Make sure the first page is always reserved  [Greg Kroah-Hartman]
+9ee2d2d  x86/speculation/l1tf: Protect PROT_NONE PTEs against speculation  [Greg Kroah-Hartman]
+9bbdab8  x86/speculation/l1tf: Protect swap entries against L1TF  [Greg Kroah-Hartman]
+614f5e8  x86/speculation/l1tf: Change order of offset/type in swap entry  [Greg Kroah-Hartman]
+86b0948  mm: x86: move _PAGE_SWP_SOFT_DIRTY from bit 7 to bit 1  [Greg Kroah-Hartman]
+f487cf6  x86/mm: Fix swap entry comment and macro  [Greg Kroah-Hartman]
+0a5deac  x86/mm: Move swap offset/type up in PTE to work around erratum  [Greg Kroah-Hartman]
+90a231c  x86/speculation/l1tf: Increase 32bit PAE __PHYSICAL_PAGE_SHIFT  [Greg Kroah-Hartman]
+ec5aa64  x86/irqflags: Provide a declaration for native_save_fl  [Greg Kroah-Hartman]
+866234c  kprobes/x86: Fix %p uses in error messages  [Greg Kroah-Hartman]
+7744abb  x86/speculation: Protect against userspace-userspace spectreRSB  [Greg Kroah-Hartman]
+8dbce8a  x86/paravirt: Fix spectre-v2 mitigations for paravirt guests  [Greg Kroah-Hartman]
+916a578  ARM: dts: imx6sx: fix irq for pcie bridge  [Greg Kroah-Hartman]
+45c679b  IB/ocrdma: fix out of bounds access to local buffer  [Greg Kroah-Hartman]
+d803aa2  IB/mlx4: Mark user MR as writable if actual virtual memory is writable  [Greg Kroah-Hartman]
+01b377d  IB/core: Make testing MR flags for writability a static inline function  [Greg Kroah-Hartman]
+b9341f5  fix __legitimize_mnt()/mntput() race  [Greg Kroah-Hartman]
+a3ababd  fix mntput/mntput race  [Greg Kroah-Hartman]
+ba74414  root dentries need RCU-delayed freeing  [Greg Kroah-Hartman]
+6aef4c4  scsi: sr: Avoid that opening a CD-ROM hangs with runtime power management enabled  [Greg Kroah-Hartman]
+277131b  ACPI / LPSS: Add missing prv_offset setting for byt/cht PWM devices  [Greg Kroah-Hartman]
+6b1f624  xen/netfront: don't cache skb_shinfo()  [Greg Kroah-Hartman]
+277b161  parisc: Define mb() and add memory barriers to assembler unlock sequences  [Greg Kroah-Hartman]
+a9252a7  parisc: Enable CONFIG_MLONGCALLS by default  [Greg Kroah-Hartman]
+1e40064  fork: unconditionally clear stack on fork  [Greg Kroah-Hartman]
+e424bee  ipv4+ipv6: Make INET*_ESP select CRYPTO_ECHAINIV  [Greg Kroah-Hartman]
+215f36e  tpm: fix race condition in tpm_common_write()  [Greg Kroah-Hartman]
+7736fce  ext4: fix check to prevent initializing reserved inodes  [Greg Kroah-Hartman]
+   * vendor/oneplus/
+30bf564  MSM8998: Update blobs to OxygenOS 5.1.4  [APOPHIS9283]
+
+====================
+     08-14-2018
+====================
+
+   * frameworks/av/
+98307a7  OMXNodeInstance: Allow dynamic native handle for shared mem buffer  [Aayush Gupta]
+d8cf567  [SQUASH] Revert of recent audioflinger upstream patches  [AmolAmrit]
