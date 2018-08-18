@@ -1,0 +1,1 @@
+*Fix problems with WeChat using front camera
