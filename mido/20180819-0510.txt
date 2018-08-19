@@ -1,0 +1,4 @@
+> Enabled Call Recording
+> Added Jelly Browser
+> Reorder Tetherable Connection types
+> Few Performance Tweaks
