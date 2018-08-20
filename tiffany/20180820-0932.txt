@@ -1,0 +1,2 @@
+    - Fix APN(Need restore factory settings)
+    - If you have any questions, please go to my xda thread feedback.
