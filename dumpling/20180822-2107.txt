@@ -1,0 +1,35 @@
+====================
+     08-22-2018
+====================
+
+   * device/oneplus/msm8998-common/
+3cb4651  Fix gps merge  [APOPHIS9283]
+dc62ec1  msm8998: Enable WiFi Aware  [APOPHIS9283]
+18d7066  msm8998-common: Update BoardConfig  [APOPHIS9283]
+ebbc607   msm8998-common: Build libmm-omxcore  [APOPHIS9283]
+c7e6712  msm8998-common: no need to backup NTP  [APOPHIS9283]
+9287e0d  msm8998-common: Use low level shutdown trigger  [APOPHIS9283]
+46d74f1  msm8998: update gps configs from 5.1.4  [APOPHIS9283]
+20b5574  msm8998: audio: fix 5.1.4 merge fail  [APOPHIS9283]
+bc5af17  msm8998: audio: update configs from 5.1.4 and caf  [APOPHIS9283]
+e87c3f7  msm8998: update data-ipa-cfg-mgr from LA.UM.6.4.r1-10300-8x98.0  [APOPHIS9283]
+c7a960d  Boot permissive  [APOPHIS9283]
+e633fc3  Some changes  [APOPHIS9283]
+0520255  op5: kang pisel power hal  [APOPHIS9283]
+   * frameworks/base/
+b18ba26  Fix the merge I screwed up  [sbcrumb]
+2a898f1  Fix stock recents after omniswitch addition  [sbcrumb]
+57e1939  Ensure Recents FAB respects RTL  [sbcrumb]
+31669ba  OmniSwitch: make it work without stock navbar (i.e. DUI)  [sbcrumb]
+a6520ef  [1/3] base: OmniSwitch integration bits  [sbcrumb]
+   * kernel/oneplus/msm8998/
+9a25a7f  drivers: staging: import wifi stack from LA.UM.6.4.r1-10300-8x98.0  [APOPHIS9283]
+a3267d0  Merge tag 'LA.UM.6.4.r1-10300-8x98.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into oc-mr2  [APOPHIS9283]
+2629c94  Improve dash charging  [APOPHIS9283]
+153db7a  Merge branch 'oc-mr2' of https://github.com/Singularity-Kernel/Singularity into oc-mr2  [APOPHIS9283]
+   * packages/apps/Extensions/
+be6dc19  Extensions: Navigation: let people disable both gestures and navbar  [sbcrumb]
+d4e60f8  Modify app to include OmniSwitch toggle this is taken from: https://github.com/LiquidRemix/android_packages_apps_LiquidLounge/commit/df7368bb5f594b17b40a61f051f6245c5b83e91e and should really be re-worked to use the existing list preference rather than having a list preference then also having a switch below it.  [sbcrumb]
+   * vendor/aosp/
+1b346be  vendor: Fix derp  [APOPHIS9283]
+305fd30  soong_config: Add TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE  [APOPHIS9283]
