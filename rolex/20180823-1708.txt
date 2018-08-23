@@ -1,0 +1,17 @@
+===== rolex: AEX Oreo v5.8 =====
+
+Changelog:
+
+Increased: JPEG Quality in Pictures
+Increased: Some Cam Improvements
+Added: Spectrum Support
+Added: Universal XiaomiDoze (Fixed Battery Drain)
+Fixed: Headset Sound bug (When receive calls)
+Merged: Eagle DTS Audio added by default
+Merged: Underclocked for more battery backup (battery_profile overlay)
+
+* It's my last version of AEX Oreo, probably from now on if there are more problems,
+* tell me that I will compile an OTA version to correct them,
+* I will leave several comments on the subject on the official XDA topic,
+* check out my most recent comments on topic.
+* Thanks for the support, I see you on AEX Pie version (Android 9.0) ^^
