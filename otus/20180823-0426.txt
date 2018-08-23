@@ -1,0 +1,7 @@
+-fixed system ui constantly force closing ,ROM is useable now :p
+
+-it is highly recommended to flash "https://www.androidfilehost.com/?fid=1322778262903986075" this zip as it'll remove many of the unnecessary apps(will increase performance)
+
+-use camera app from here for better result "https://www.androidfilehost.com/?fid=1322778262903986074"
+
+-and ya a big big thanks to theimpulson and amol amrit *_*
