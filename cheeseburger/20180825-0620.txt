@@ -1,0 +1,157 @@
+Fixed OP gesture toggle
+Redflare Kernel 1.13
+Linux 4.4.152
+
+______________________
+
+====================
+     08-25-2018
+====================
+
+   * kernel/oneplus/msm8998/
+2bf4d00  RedFlare-Kernel-v1.13  [mTresk]
+6f092c90  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into 8.1.0-unified  [mTresk]
+f23e16b  Merge 4.4.152 into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+0c73169  Linux 4.4.152  [Greg Kroah-Hartman]
+7122540  reiserfs: fix broken xattr handling (heap corruption, bad retval)  [Greg Kroah-Hartman]
+6e57e6c  i2c: imx: Fix race condition in dma read  [Greg Kroah-Hartman]
+131412f  PCI: pciehp: Fix use-after-free on unplug  [Greg Kroah-Hartman]
+cc7614a  PCI: Skip MPS logic for Virtual Functions (VFs)  [Greg Kroah-Hartman]
+8837163  PCI: hotplug: Don't leak pci_slot on registration failure  [Greg Kroah-Hartman]
+400db6f  parisc: Remove unnecessary barriers from spinlock.h  [Greg Kroah-Hartman]
+6d124ea  bridge: Propagate vlan add failure to user  [Greg Kroah-Hartman]
+62c4e36  packet: refine ring v3 block size test to hold one frame  [Greg Kroah-Hartman]
+76cb5cc  netfilter: conntrack: dccp: treat SYNC/SYNCACK as invalid if no prior state  [Greg Kroah-Hartman]
+3e6170d  xfrm_user: prevent leaking 2 bytes of kernel memory  [Greg Kroah-Hartman]
+49b3acf  parisc: Remove ordered stores from syscall.S  [Greg Kroah-Hartman]
+a89f838  ext4: fix spectre gadget in ext4_mb_regular_allocator()  [Greg Kroah-Hartman]
+1186a6e  KVM: irqfd: fix race between EPOLLHUP and irq_bypass_register_consumer  [Greg Kroah-Hartman]
+b84ec04  staging: android: ion: check for kref overflow  [Greg Kroah-Hartman]
+81970da  tcp: identify cryptic messages as TCP seq # bugs  [Greg Kroah-Hartman]
+780e559  net: qca_spi: Fix log level if probe fails  [Greg Kroah-Hartman]
+e77b152  net: qca_spi: Make sure the QCA7000 reset is triggered  [Greg Kroah-Hartman]
+8621e69  net: qca_spi: Avoid packet drop during initial sync  [Greg Kroah-Hartman]
+8cfe6f3  net: usb: rtl8150: demote allmulti message to dev_dbg()  [Greg Kroah-Hartman]
+0821dda  net/ethernet/freescale/fman: fix cross-build error  [Greg Kroah-Hartman]
+9c8f268  drm/nouveau/gem: off by one bugs in nouveau_gem_pushbuf_reloc_apply()  [Greg Kroah-Hartman]
+43707aa  tcp: remove DELAYED ACK events in DCTCP  [Greg Kroah-Hartman]
+7795ce1  qlogic: check kstrtoul() for errors  [Greg Kroah-Hartman]
+01a8ef2  packet: reset network header if packet shorter than ll reserved space  [Greg Kroah-Hartman]
+8ab85f3  ixgbe: Be more careful when modifying MAC filters  [Greg Kroah-Hartman]
+bcfa726  ARM: dts: am3517.dtsi: Disable reference to OMAP3 OTG controller  [Greg Kroah-Hartman]
+97d53c8  ARM: 8780/1: ftrace: Only set kernel memory back to read-only after boot  [Greg Kroah-Hartman]
+c0cd6f4  perf llvm-utils: Remove bashism from kernel include fetch script  [Greg Kroah-Hartman]
+149751b  bnxt_en: Fix for system hang if request_irq fails  [Greg Kroah-Hartman]
+2cb585f  drm/armada: fix colorkey mode property  [Greg Kroah-Hartman]
+fe9ee61  ieee802154: fakelb: switch from BUG_ON() to WARN_ON() on problem  [Greg Kroah-Hartman]
+24e3a53  ieee802154: at86rf230: use __func__ macro for debug messages  [Greg Kroah-Hartman]
+691a13a  ieee802154: at86rf230: switch from BUG_ON() to WARN_ON() on problem  [Greg Kroah-Hartman]
+be4691a  ARM: pxa: irq: fix handling of ICMR registers in suspend/resume  [Greg Kroah-Hartman]
+7e8f97b  netfilter: x_tables: set module owner for icmp(6) matches  [Greg Kroah-Hartman]
+c7fda06  smsc75xx: Add workaround for gigabit link up hardware errata.  [Greg Kroah-Hartman]
+1acb2ad  kasan: fix shadow_size calculation error in kasan_module_alloc  [Greg Kroah-Hartman]
+bfb1c34  tracing: Use __printf markup to silence compiler  [Greg Kroah-Hartman]
+be38b95  ARM: imx_v4_v5_defconfig: Select ULPI support  [Greg Kroah-Hartman]
+0d0af17  ARM: imx_v6_v7_defconfig: Select ULPI support  [Greg Kroah-Hartman]
+1bdab67  HID: wacom: Correct touch maximum XY of 2nd-gen Intuos  [Greg Kroah-Hartman]
+8f2f467  m68k: fix "bad page state" oops on ColdFire boot  [Greg Kroah-Hartman]
+aba71e6  bnx2x: Fix receiving tx-timeout in error or recovery state.  [Greg Kroah-Hartman]
+acc8307  drm/exynos: decon5433: Fix WINCONx reset value  [Greg Kroah-Hartman]
+c460302  drm/exynos: decon5433: Fix per-plane global alpha for XRGB modes  [Greg Kroah-Hartman]
+048115c  drm/exynos: gsc: Fix support for NV16/61, YUV420/YVU420 and YUV422 modes  [Greg Kroah-Hartman]
+66de110  md/raid10: fix that replacement cannot complete recovery after reassemble  [Greg Kroah-Hartman]
+0430caf  dmaengine: k3dma: Off by one in k3_of_dma_simple_xlate()  [Greg Kroah-Hartman]
+d238b2e  ARM: dts: da850: Fix interrups property for gpio  [Greg Kroah-Hartman]
+9a406f2  selftests/x86/sigreturn/64: Fix spurious failures on AMD CPUs  [Greg Kroah-Hartman]
+7cef243  perf report powerpc: Fix crash if callchain is empty  [Greg Kroah-Hartman]
+6ba7ddb  perf test session topology: Fix test on s390  [Greg Kroah-Hartman]
+1748d3f  usb: xhci: increase CRS timeout value  [Greg Kroah-Hartman]
+27edb67  ARM: dts: am437x: make edt-ft5x06 a wakeup source  [Greg Kroah-Hartman]
+852f7cd  brcmfmac: stop watchdog before detach and free everything  [Greg Kroah-Hartman]
+86c43df  cxgb4: when disabling dcb set txq dcb priority to 0  [Greg Kroah-Hartman]
+091cb7d  Smack: Mark inode instant in smack_task_to_inode  [Greg Kroah-Hartman]
+55989af  ipv6: mcast: fix unsolicited report interval after receiving querys  [Greg Kroah-Hartman]
+c40dc96  locking/lockdep: Do not record IRQ state within lockdep code  [Greg Kroah-Hartman]
+39565a7  net: davinci_emac: match the mdio device against its compatible if possible  [Greg Kroah-Hartman]
+d68db3d  ARC: Enable machine_desc->init_per_cpu for !CONFIG_SMP  [Greg Kroah-Hartman]
+c5df06b  net: propagate dev_get_valid_name return code  [Greg Kroah-Hartman]
+e5bfd8e  net: hamradio: use eth_broadcast_addr  [Greg Kroah-Hartman]
+d89657e  enic: initialize enic->rfs_h.lock in enic_probe  [Greg Kroah-Hartman]
+f0e199f  qed: Add sanity check for SIMD fastpath handler.  [Greg Kroah-Hartman]
+d5a3620  arm64: make secondary_start_kernel() notrace  [Greg Kroah-Hartman]
+7d082f1  scsi: xen-scsifront: add error handling for xenbus_printf  [Greg Kroah-Hartman]
+d51ce9e  usb: gadget: dwc2: fix memory leak in gadget_init()  [Greg Kroah-Hartman]
+3c29ae7  usb: gadget: composite: fix delayed_status race condition when set_interface  [Greg Kroah-Hartman]
+879384b  usb: dwc2: fix isoc split in transfer with no data  [Greg Kroah-Hartman]
+0a6914e  ARM: dts: Cygnus: Fix I2C controller interrupt type  [Greg Kroah-Hartman]
+67726a2  selftests: sync: add config fragment for testing sync framework  [Greg Kroah-Hartman]
+8e54d87  selftests: zram: return Kselftest Skip code for skipped tests  [Greg Kroah-Hartman]
+01024c0  selftests: user: return Kselftest Skip code for skipped tests  [Greg Kroah-Hartman]
+68f5b8f  selftests: static_keys: return Kselftest Skip code for skipped tests  [Greg Kroah-Hartman]
+c22a9ad  selftests: pstore: return Kselftest Skip code for skipped tests  [Greg Kroah-Hartman]
+8747d9e  netfilter: ipv6: nf_defrag: reduce struct net memory waste  [Greg Kroah-Hartman]
+97aaf73  ARC: Explicitly add -mmedium-calls to CFLAGS  [Greg Kroah-Hartman]
+
+====================
+     08-24-2018
+====================
+
+   * kernel/oneplus/msm8998/
+2ca1270  RedFlare-Kernel-v1.12  [mTresk]
+cdb2a1b  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into 8.1.0-unified  [mTresk]
+
+====================
+     08-23-2018
+====================
+
+   * kernel/oneplus/msm8998/
+105663e  Merge remote-tracking branch 'upstream/oneplus/QC8998_O_8.1' into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+51cb99f  msm: mdss: check buffer size before writing to user buffer  [davidliu]
+51b5533  msm: sde: check buffer size before writing to user buffer  [davidliu]
+b206d38  msm: mdss: Fix for wrong length in copy_to_user  [davidliu]
+ca01bff  diag: Protect the decrement of number of diag clients  [davidliu]
+8a1081a  drivers: qcom: lpm-stats: Fix undefined access error  [davidliu]
+619d04d  Disable CONFIG_DEVMEM  [davidliu]
+812b682  Disable CONFIG_DEVKMEM and CONFIG_DEVMEM  [davidliu]
+07b496f  Improve dash charging  [davidliu]
+e3f0af2  Enable dm-verity flag  [davidliu]
+b2fefb8  Full treble porting  [davidliu]
+bf54141  RedFlare-Kernel-v1.11  [mTresk]
+5afb4ee  Merge branch 'oneplus/QC8998_O_8.1' of https://github.com/android-linux-stable/op5 into 8.1.0-unified  [mTresk]
+
+====================
+     08-22-2018
+====================
+
+   * kernel/oneplus/msm8998/
+791ad3a  Merge 4.4.151 into oneplus/QC8998_O_8.1  [Nathan Chancellor]
+78f654f  Linux 4.4.151  [Greg Kroah-Hartman]
+3b6393e  isdn: Disable IIOCDBGVAR  [Greg Kroah-Hartman]
+9aeef6b  Bluetooth: avoid killing an already killed socket  [Greg Kroah-Hartman]
+5069ddd  x86/mm: Simplify p[g4um]d_page() macros  [Greg Kroah-Hartman]
+b4d2c57  serial: 8250_dw: always set baud rate in dw8250_set_termios  [Greg Kroah-Hartman]
+c2650d4  ACPI / PM: save NVS memory for ASUS 1025C laptop  [Greg Kroah-Hartman]
+3f9ca47  ACPI: save NVS memory for Lenovo G50-45  [Greg Kroah-Hartman]
+39cd328  USB: option: add support for DW5821e  [Greg Kroah-Hartman]
+a8587cb  USB: serial: sierra: fix potential deadlock at close  [Greg Kroah-Hartman]
+09b5664  ALSA: vxpocket: Fix invalid endian conversions  [Greg Kroah-Hartman]
+dd65a18  ALSA: memalloc: Don't exceed over the requested size  [Greg Kroah-Hartman]
+ad76ea3  ALSA: hda: Correct Asrock B85M-ITX power_save blacklist entry  [Greg Kroah-Hartman]
+dbc8ab8  ALSA: cs5535audio: Fix invalid endian conversion  [Greg Kroah-Hartman]
+8419b74  ALSA: virmidi: Fix too long output trigger loop  [Greg Kroah-Hartman]
+c48a185  ALSA: vx222: Fix invalid endian conversions  [Greg Kroah-Hartman]
+caf8fe5  ALSA: hda - Turn CX8200 into D3 as well upon reboot  [Greg Kroah-Hartman]
+1b692b7  ALSA: hda - Sleep for 10ms after entering D3 on Conexant codecs  [Greg Kroah-Hartman]
+51f6a13  net_sched: fix NULL pointer dereference when delete tcindex filter  [Greg Kroah-Hartman]
+62209d1  vsock: split dwork to avoid reinitializations  [Greg Kroah-Hartman]
+0adfdb9  net_sched: Fix missing res info when create new tc_index filter  [Greg Kroah-Hartman]
+813fb06  llc: use refcount_inc_not_zero() for llc_sap_find()  [Greg Kroah-Hartman]
+4aef9b0  l2tp: use sk_dst_check() to avoid race on sk->sk_dst_cache  [Greg Kroah-Hartman]
+f35e16c  dccp: fix undefined behavior with 'cwnd' shift in ccid2_cwnd_restart()  [Greg Kroah-Hartman]
+7ececb4  Update oos defconfig to match custom  [mTresk]
+
+====================
+     08-21-2018
+====================
+
+
