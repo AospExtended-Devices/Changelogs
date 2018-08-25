@@ -1,0 +1,7 @@
+ * device/motorola/sanders/
+b47972c  tweak bfq iosched for flash drives  [Keertesh19]
+   * kernel/motorola/msm8953/
+cbf158d9fb6d  Merge tag 'v3.18.119' into 8.1-moto  [Keertesh19]
+6f9de016bbb9  Makefile: fix segfaults when compiled with Clang  [Keertesh19]
+*August Patches.
+*5.8 updates.
