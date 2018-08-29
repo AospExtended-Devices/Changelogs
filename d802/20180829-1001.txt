@@ -1,0 +1,4 @@
+== AEX 5.8 ==
+Updated vibrator to a new binderized HAL
+Fixed a ton of CVEs
+Audio fixes
