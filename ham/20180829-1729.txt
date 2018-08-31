@@ -1,0 +1,8 @@
+AospExtended v5.8 Changelog - 20180829-1729
+
+- Fixed the op gesture toggle (now you can turn off w/o turning on nav bar)
+- FP code synced to latest compatible source
+- Power HAL cleanup
+- Minor bug fixes
+
+Users can dirty flash :D
