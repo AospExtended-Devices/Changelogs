@@ -1,0 +1,2 @@
+*add Qualcomm® aptX™ audio
+*fix some bugs
