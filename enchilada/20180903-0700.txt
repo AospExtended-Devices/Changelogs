@@ -1,0 +1,6 @@
+Changelog of AospExtended v5.8 for OnePlus 6!
+
+ *nathanchance's Flash Kernel,Linux version 4.9.124
+ *Disable RONX_DEBUG,SWAP and enable JUMP_LABEL
+ *Extensions: Navigation: let people disable both gestures and navbar
+ *LineageOS lib7z update
