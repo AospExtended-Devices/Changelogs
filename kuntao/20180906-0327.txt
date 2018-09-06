@@ -1,0 +1,7 @@
+===========================
+AospExtended v5.8 Changelog
+===========================
+
+Merge September security patch (8.1.0_r46)
+Removed OP Gestures and added back Edge Gestures
+Kernel upstream to 3.18.121
