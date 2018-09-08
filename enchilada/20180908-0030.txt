@@ -1,0 +1,11 @@
+Changelog of AospExtended v5.8 September 8 build for OnePlus 6!
+
+ *Linux kernel version 4.9.125
+ *September 2018 Security Patch
+ *Updated to Android 8.1.0_r46
+ *Camera and Gallery updated from OOS 5.1.11
+ *Fsync ON/OFF support
+ *Stock google kernel 4.9 lowmemorykiller
+ *Add BOEFFLA_WL_BLOCKER(kernel)
+ *Adrenoboost support
+ *New Screen off gestures in Settings
