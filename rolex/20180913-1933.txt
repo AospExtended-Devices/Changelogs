@@ -1,0 +1,9 @@
+===== rolex: AEX Oreo v5.8 =====
+
+Changelog:
+
+Merged: September Security Patch (8.1.0_r46)
+Added: Call Recording
+
+Last version fixing problems, from the new versions via OTA will only be updates of Security Patch.
+Oreo is coming! Thanks for all, guys <3
