@@ -1,0 +1,9 @@
+AospExtended ROM:
+
+- Nothing for now
+
+Device specific:
+
+- Fix bootloops of 09/12 build
+
+You can also check https://bit.ly/2Olz1g9 to refer more changes
