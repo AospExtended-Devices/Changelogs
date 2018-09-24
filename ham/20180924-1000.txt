@@ -1,0 +1,14 @@
+AospExtended v5.8 Changelog - 20180924-1000
+
+Note: Before flashing this OTA/Update make sure you flash the necessary firmware zip to load fp hal properly, becasue without it you won't be able to flash rom.
+The firmware flashable file will be uploaded on XDA (Rom Thread, OP). 
+So, make sure you chekced that out
+
+Changelog: 
+
+- Updated to latest security patches 
+- Minor bug fixes
+
+This Oreo update will be last update from my side and from 2nd week of October the Pie builds will be Officially up.
+
+Enjoy ;)
