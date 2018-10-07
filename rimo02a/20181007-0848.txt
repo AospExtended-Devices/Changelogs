@@ -1,0 +1,7 @@
+Changelog for AospExtended v5.8 rimo02a!
+
+====================
+     10-07-2018
+====================
+
+   * Initial Release.
