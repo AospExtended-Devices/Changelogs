@@ -1,0 +1,8 @@
+Changelog for AospExtended v5.8 rimo02a!
+
+====================
+     10-08-2018
+====================
+
+   * Fix NFC.
+   * Remove GCAM.
