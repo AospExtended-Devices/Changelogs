@@ -1,0 +1,7 @@
+===== rolex: AEX Oreo v5.8 =====
+
+Changelog:
+
+Merged: October Security Patch (8.1.0_r48)
+
+See you on AEX Pie soon <3
