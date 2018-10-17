@@ -4,6 +4,6 @@
 -> v3.18.123 Merged into kernel.
 -> Improved Performance.
 -> Magisk modules are now working.
--> Moto rebased kernel.(Flash nougat fp if fp is broken).
+-> Moto rebased kernel.(Flash nougat fp if fp is broken, LINK- https://www.androidfilehost.com/?fid=11410932744536981803).
 
 ENJOY!
