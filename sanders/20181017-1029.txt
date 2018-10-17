@@ -1,0 +1,9 @@
+**FINAL OREO BUILD**
+
+-> Video Playback fixes.
+-> v3.18.123 Merged into kernel.
+-> Improved Performance.
+-> Magisk modules are now working.
+-> Moto rebased kernel.(Flash nougat fp if fp is broken).
+
+ENJOY!
