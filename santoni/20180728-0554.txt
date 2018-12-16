@@ -1,2 +1,0 @@
-- Fix Can't turn off Doze Issue
-- Some small tweaks

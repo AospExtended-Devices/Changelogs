@@ -1,3 +1,0 @@
-- Bump to v5.7
-- Fix GSI Booting issue
-(Note: due to enforcing SELinux,Fingerprint will die on GSI)

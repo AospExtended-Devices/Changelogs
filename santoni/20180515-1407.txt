@@ -1,6 +1,0 @@
-========================
-Santoni Specified Change
-========================
-- VoLTE
-- Switch to O-MR1 blobs
-- Misc Tweaks
