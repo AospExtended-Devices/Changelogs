@@ -1,7 +1,0 @@
-* hardware/libhardware/
-1c85d6f7  soter: Add SOTER tags  [Darshan Manjrekar]
-4bce49bb  libhardware: Add KM_ERROR_SOTER_ERROR in km error list  [Darshan Manjrekar]
-   * system/keymaster/
-2acf7b0  soter: Add support for soter tags  [Darshan Manjrekar]
-   * system/security/
-fce009c  soter: Include ASK during AK key generation  [Darshan Manjrekar]
